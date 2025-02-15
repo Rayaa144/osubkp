@@ -1,0 +1,949 @@
+----------------------------------------------------------
+runtime Log (LogLevel: Verbose)
+Running osu 2025.118.3.0 on .NET 8.0.12
+Environment: Linux (Unix 6.13.2.1), 8 cores 
+----------------------------------------------------------
+2025-02-15 15:42:03 [verbose]: Starting legacy IPC provider...
+2025-02-15 15:42:04 [verbose]: 🖼️ Configuration renderer choice: OpenGL
+2025-02-15 15:42:04 [verbose]: 🖼️ Renderer fallback order: [ OpenGL, OpenGL (Experimental), Vulkan (Experimental) ]
+2025-02-15 15:42:04 [verbose]: 🖼️ Initialising "GL" renderer with "OpenGL" surface
+2025-02-15 15:42:04 [verbose]: SDL2 Initialized
+2025-02-15 15:42:04 [verbose]: SDL2 Version: 2.31.0
+2025-02-15 15:42:04 [verbose]: SDL2 Revision: SDL-2.31.0-g5d80179
+2025-02-15 15:42:04 [verbose]: Updated display mode to desktop resolution: 1920x1080@60, SDL_PIXELFORMAT_RGB888
+2025-02-15 15:42:04 [verbose]: GL Initialized
+2025-02-15 15:42:04 [verbose]: GL Version:                 3.2.0 NVIDIA 570.86.16
+2025-02-15 15:42:04 [verbose]: GL Renderer:                NVIDIA GeForce GTX 1650/PCIe/SSE2
+2025-02-15 15:42:04 [verbose]: GL Shader Language version: 1.50 NVIDIA via Cg compiler
+2025-02-15 15:42:04 [verbose]: GL Vendor:                  NVIDIA Corporation
+2025-02-15 15:42:04 [verbose]: GL Extensions:              GL_AMD_multi_draw_indirect GL_AMD_seamless_cubemap_per_texture GL_AMD_vertex_shader_viewport_index GL_AMD_vertex_shader_layer GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_bindless_texture GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage GL_ARB_conservative_depth GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_depth_texture GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_indirect GL_ARB_draw_elements_base_vertex GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_ES2_compatibility GL_ARB_ES3_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_program GL_ARB_fragment_program_shadow GL_ARB_fragment_shader GL_ARB_fragment_shader_interlock GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_geometry_shader4 GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_imaging GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_multisample GL_ARB_multitexture GL_ARB_occlusion_query GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_parameters GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_post_depth_coverage GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_locations GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shading_language_100 GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_shadow GL_ARB_sparse_buffer GL_ARB_sparse_texture GL_ARB_sparse_texture2 GL_ARB_sparse_texture_clamp GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map GL_ARB_texture_cube_map_array GL_ARB_texture_env_add GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3 GL_ARB_texture_filter_anisotropic GL_ARB_texture_filter_minmax GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_mirrored_repeat GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_transpose_matrix GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_program GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ARB_window_pos GL_ATI_draw_buffers GL_ATI_texture_float GL_ATI_texture_mirror_once GL_S3_s3tc GL_EXT_texture_env_add GL_EXT_abgr GL_EXT_bgra GL_EXT_bindable_uniform GL_EXT_blend_color GL_EXT_blend_equation_separate GL_EXT_blend_func_separate GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_compiled_vertex_array GL_EXT_Cg_shader GL_EXT_depth_bounds_test GL_EXT_direct_state_access GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_draw_range_elements GL_EXT_fog_coord GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXTX_framebuffer_mixed_formats GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_geometry_shader4 GL_EXT_gpu_program_parameters GL_EXT_gpu_shader4 GL_EXT_multi_draw_arrays GL_EXT_multiview_texture_multisample GL_EXT_multiview_timer_query GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_packed_pixels GL_EXT_pixel_buffer_object GL_EXT_point_parameters GL_EXT_polygon_offset_clamp GL_EXT_post_depth_coverage GL_EXT_provoking_vertex GL_EXT_raster_multisample GL_EXT_rescale_normal GL_EXT_secondary_color GL_EXT_separate_shader_objects GL_EXT_separate_specular_color GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shadow_funcs GL_EXT_sparse_texture2 GL_EXT_stencil_two_side GL_EXT_stencil_wrap GL_EXT_texture3D GL_EXT_texture_array GL_EXT_texture_buffer_object GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_latc GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_cube_map GL_EXT_texture_edge_clamp GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_EXT_texture_filter_anisotropic GL_EXT_texture_filter_minmax GL_EXT_texture_integer GL_EXT_texture_lod GL_EXT_texture_lod_bias GL_EXT_texture_mirror_clamp GL_EXT_texture_object GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback2 GL_EXT_vertex_array GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_EXT_x11_sync_object GL_EXT_import_sync_object GL_NV_robustness_video_memory_purge GL_IBM_rasterpos_clip GL_IBM_texture_mirrored_repeat GL_KHR_context_flush_control GL_KHR_debug GL_EXT_memory_object GL_EXT_memory_object_fd GL_NV_memory_object_sparse GL_KHR_parallel_shader_compile GL_KHR_no_error GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_EXT_semaphore GL_EXT_semaphore_fd GL_NV_timeline_semaphore GL_KHR_shader_subgroup GL_KTX_buffer_region GL_NV_alpha_to_coverage_dither_control GL_NV_bindless_multi_draw_indirect GL_NV_bindless_multi_draw_indirect_count GL_NV_bindless_texture GL_NV_blend_equation_advanced GL_NV_blend_equation_advanced_coherent GL_NVX_blend_equation_advanced_multi_draw_buffers GL_NV_blend_minmax_factor GL_NV_blend_square GL_NV_clip_space_w_scaling GL_NV_command_list GL_NV_compute_program5 GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_conservative_raster GL_NV_conservative_raster_dilate GL_NV_conservative_raster_pre_snap GL_NV_conservative_raster_pre_snap_triangles GL_NV_conservative_raster_underestimation GL_NV_copy_depth_to_color GL_NV_copy_image GL_NV_depth_buffer_float GL_NV_depth_clamp GL_NV_draw_texture GL_NV_draw_vulkan_image GL_NV_ES1_1_compatibility GL_NV_ES3_1_compatibility GL_NV_explicit_multisample GL_NV_feature_query GL_NV_fence GL_NV_fill_rectangle GL_NV_float_buffer GL_NV_fog_distance GL_NV_fragment_coverage_to_color GL_NV_fragment_program GL_NV_fragment_program_option GL_NV_fragment_program2 GL_NV_fragment_shader_barycentric GL_NV_fragment_shader_interlock GL_NV_framebuffer_mixed_samples GL_NV_framebuffer_multisample_coverage GL_NV_geometry_shader4 GL_NV_geometry_shader_passthrough GL_NV_gpu_program4 GL_NV_internalformat_sample_query GL_NV_gpu_program4_1 GL_NV_gpu_program5 GL_NV_gpu_program5_mem_extended GL_NV_gpu_program_fp64 GL_NV_gpu_program_multiview GL_NV_gpu_shader5 GL_NV_half_float GL_NV_light_max_exponent GL_NV_memory_attachment GL_NV_mesh_shader GL_NV_multisample_coverage GL_NV_multisample_filter_hint GL_NV_occlusion_query GL_NV_packed_depth_stencil GL_NV_parameter_buffer_object GL_NV_parameter_buffer_object2 GL_NV_path_rendering GL_NV_path_rendering_shared_edge GL_NV_pixel_data_range GL_NV_point_sprite GL_NV_primitive_restart GL_NV_query_resource GL_NV_query_resource_tag GL_NV_register_combiners GL_NV_register_combiners2 GL_NV_representative_fragment_test GL_NV_sample_locations GL_NV_sample_mask_override_coverage GL_NV_scissor_exclusive GL_NV_shader_atomic_counters GL_NV_shader_atomic_float GL_NV_shader_atomic_float64 GL_NV_shader_atomic_fp16_vector GL_NV_shader_atomic_int64 GL_NV_shader_buffer_load GL_NV_shader_storage_buffer_object GL_NV_shader_subgroup_partitioned GL_NV_shader_texture_footprint GL_NV_shading_rate_image GL_NV_stereo_view_rendering GL_NV_texgen_reflection GL_NV_texture_barrier GL_NV_texture_compression_vtc GL_NV_texture_env_combine4 GL_NV_texture_multisample GL_NV_texture_rectangle GL_NV_texture_rectangle_compressed GL_NV_texture_shader GL_NV_texture_shader2 GL_NV_texture_shader3 GL_NV_transform_feedback GL_NV_transform_feedback2 GL_NV_uniform_buffer_unified_memory GL_NV_uniform_buffer_std430_layout GL_NV_vdpau_interop GL_NV_vdpau_interop2 GL_NV_vertex_array_range GL_NV_vertex_array_range2 GL_NV_vertex_attrib_integer_64bit GL_NV_vertex_buffer_unified_memory GL_NV_vertex_program GL_NV_vertex_program1_1 GL_NV_vertex_program2 GL_NV_vertex_program2_option GL_NV_vertex_program3 GL_NV_viewport_array2 GL_NV_viewport_swizzle GL_NVX_conditional_render GL_NV_gpu_multicast GL_NVX_progress_fence GL_NVX_gpu_memory_info GL_NVX_nvenc_interop GL_NV_shader_thread_group GL_NV_shader_thread_shuffle GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_OVR_multiview GL_OVR_multiview2 GL_SGIS_generate_mipmap GL_SGIS_texture_lod GL_SGIX_depth_texture GL_SGIX_shadow GL_SUN_slice_accum
+2025-02-15 15:42:04 [verbose]: UseStructuredBuffers: True
+2025-02-15 15:42:04 [verbose]: 🖼️ Renderer initialised!
+2025-02-15 15:42:04 [verbose]: Host execution state changed to Running
+2025-02-15 15:42:04 [verbose]: Execution mode changed to MultiThreaded
+2025-02-15 15:42:05 [verbose]: 🔈 BASS initialised
+2025-02-15 15:42:05 [verbose]: BASS version:           2.4.17.0
+2025-02-15 15:42:05 [verbose]: BASS FX version:        2.4.12.6
+2025-02-15 15:42:05 [verbose]: BASS MIX version:       2.4.12.0
+2025-02-15 15:42:05 [verbose]: Device:                 PipeWire Sound Server
+2025-02-15 15:42:05 [verbose]: Driver:                 pipewire
+2025-02-15 15:42:05 [verbose]: Update period:          5 ms
+2025-02-15 15:42:05 [verbose]: Device buffer length:   10 ms
+2025-02-15 15:42:05 [verbose]: Playback buffer length: 100 ms
+2025-02-15 15:42:05 [verbose]: Beginning realm file store cleanup
+2025-02-15 15:42:05 [verbose]: 🔈 BASS initialised
+2025-02-15 15:42:05 [verbose]: BASS version:           2.4.17.0
+2025-02-15 15:42:05 [verbose]: BASS FX version:        2.4.12.6
+2025-02-15 15:42:05 [verbose]: BASS MIX version:       2.4.12.0
+2025-02-15 15:42:05 [verbose]: Device:                 PipeWire Sound Server
+2025-02-15 15:42:05 [verbose]: Driver:                 pipewire
+2025-02-15 15:42:05 [verbose]: Update period:          5 ms
+2025-02-15 15:42:05 [verbose]: Device buffer length:   10 ms
+2025-02-15 15:42:05 [verbose]: Playback buffer length: 100 ms
+2025-02-15 15:42:05 [verbose]: Finished realm file store cleanup (4 of 4 deleted)
+2025-02-15 15:42:05 [verbose]: Opened realm "/home/paul/.local/share/osu/client.realm" at version 46
+2025-02-15 15:42:05 [verbose]: Updated display mode to desktop resolution: 1920x1080@60, SDL_PIXELFORMAT_RGB888
+2025-02-15 15:42:05 [verbose]: Loading FPSCounter...
+2025-02-15 15:42:06 [verbose]: Loaded FPSCounter!
+2025-02-15 15:42:06 [verbose]: Loading OsuLogo...
+2025-02-15 15:42:06 [verbose]: Texture -'s upload queue is large (100)
+2025-02-15 15:42:06 [verbose]: Texture -'s upload queue is large (200)
+2025-02-15 15:42:06 [verbose]: Loaded OsuLogo!
+2025-02-15 15:42:06 [verbose]: Loading LocalUserStatisticsProvider...
+2025-02-15 15:42:06 [verbose]: 📺 OsuScreenStack#368(depth:1) loading Loader#501
+2025-02-15 15:42:06 [verbose]: Loaded LocalUserStatisticsProvider!
+2025-02-15 15:42:06 [verbose]: Loading DifficultyRecommender...
+2025-02-15 15:42:06 [verbose]: 📺 OsuScreenStack#368(depth:1) entered Loader#501
+2025-02-15 15:42:06 [verbose]: Loaded DifficultyRecommender!
+2025-02-15 15:42:06 [verbose]: Loading UserStatisticsWatcher...
+2025-02-15 15:42:06 [verbose]: Loaded UserStatisticsWatcher!
+2025-02-15 15:42:06 [verbose]: Loading Toolbar...
+2025-02-15 15:42:06 [verbose]: Texture 3's upload queue is large (100)
+2025-02-15 15:42:06 [verbose]: 📺 OsuScreenStack#368(depth:1) suspended Loader#501 (waiting on IntroTriangles#468)
+2025-02-15 15:42:06 [verbose]: 📺 OsuScreenStack#368(depth:2) entered IntroTriangles#468
+2025-02-15 15:42:06 [verbose]: 📺 BackgroundScreenStack#830(depth:1) loading BackgroundScreenDefault#320
+2025-02-15 15:42:06 [verbose]: Game-wide working beatmap updated to cYsmix - triangles (peppy) [peppy]
+2025-02-15 15:42:06 [verbose]: 📺 BackgroundScreenStack#830(depth:1) entered BackgroundScreenDefault#320
+2025-02-15 15:42:06 [verbose]: 🌅 Global background change queued
+2025-02-15 15:42:06 [verbose]: Loaded Toolbar!
+2025-02-15 15:42:06 [verbose]: Loading VolumeOverlay...
+2025-02-15 15:42:06 [verbose]: Texture 3's upload queue is large (100)
+2025-02-15 15:42:06 [verbose]: Loaded VolumeOverlay!
+2025-02-15 15:42:06 [verbose]: Loading OnScreenDisplay...
+2025-02-15 15:42:06 [verbose]: Loaded OnScreenDisplay!
+2025-02-15 15:42:06 [verbose]: Loading NotificationOverlay...
+2025-02-15 15:42:06 [verbose]: Loaded NotificationOverlay!
+2025-02-15 15:42:06 [verbose]: Loading LegacyImportManager...
+2025-02-15 15:42:06 [verbose]: Loaded LegacyImportManager!
+2025-02-15 15:42:06 [verbose]: Loading ScreenshotManager...
+2025-02-15 15:42:06 [verbose]: Loaded ScreenshotManager!
+2025-02-15 15:42:06 [verbose]: Loading VelopackUpdateManager...
+2025-02-15 15:42:06 [verbose]: Loaded VelopackUpdateManager!
+2025-02-15 15:42:06 [verbose]: Loading FirstRunSetupOverlay...
+2025-02-15 15:42:06 [verbose]: Loaded FirstRunSetupOverlay!
+2025-02-15 15:42:06 [verbose]: Loading ManageCollectionsDialog...
+2025-02-15 15:42:06 [verbose]: Loaded ManageCollectionsDialog!
+2025-02-15 15:42:06 [verbose]: Loading BeatmapListingOverlay...
+2025-02-15 15:42:06 [verbose]: Loaded BeatmapListingOverlay!
+2025-02-15 15:42:06 [verbose]: Loading DashboardOverlay...
+2025-02-15 15:42:06 [verbose]: Loaded DashboardOverlay!
+2025-02-15 15:42:06 [verbose]: Loading NewsOverlay...
+2025-02-15 15:42:06 [verbose]: Loaded NewsOverlay!
+2025-02-15 15:42:06 [verbose]: Loading RankingsOverlay...
+2025-02-15 15:42:06 [verbose]: 🌅 Global background loading
+2025-02-15 15:42:06 [verbose]: Loaded RankingsOverlay!
+2025-02-15 15:42:06 [verbose]: Loading ChannelManager...
+2025-02-15 15:42:06 [verbose]: Loaded ChannelManager!
+2025-02-15 15:42:06 [verbose]: Loading ChatOverlay...
+2025-02-15 15:42:06 [verbose]: Loaded ChatOverlay!
+2025-02-15 15:42:06 [verbose]: Loading MessageNotifier...
+2025-02-15 15:42:06 [verbose]: Loaded MessageNotifier!
+2025-02-15 15:42:06 [verbose]: Loading SettingsOverlay...
+2025-02-15 15:42:07 [verbose]: Loaded SettingsOverlay!
+2025-02-15 15:42:07 [verbose]: Loading ChangelogOverlay...
+2025-02-15 15:42:07 [verbose]: Loaded ChangelogOverlay!
+2025-02-15 15:42:07 [verbose]: Loading UserProfileOverlay...
+2025-02-15 15:42:07 [verbose]: Loaded UserProfileOverlay!
+2025-02-15 15:42:07 [verbose]: Loading BeatmapSetOverlay...
+2025-02-15 15:42:07 [verbose]: Loaded BeatmapSetOverlay!
+2025-02-15 15:42:07 [verbose]: Loading WikiOverlay...
+2025-02-15 15:42:07 [verbose]: Loaded WikiOverlay!
+2025-02-15 15:42:07 [verbose]: Loading SkinEditorOverlay...
+2025-02-15 15:42:07 [verbose]: Loaded SkinEditorOverlay!
+2025-02-15 15:42:07 [verbose]: Loading LoginOverlay...
+2025-02-15 15:42:07 [verbose]: Loaded LoginOverlay!
+2025-02-15 15:42:07 [verbose]: Loading NowPlayingOverlay...
+2025-02-15 15:42:07 [verbose]: Loaded NowPlayingOverlay!
+2025-02-15 15:42:07 [verbose]: Loading AccountCreationOverlay...
+2025-02-15 15:42:07 [verbose]: 📺 ScreenStack#184(depth:1) scheduling push ScreenWelcome#615
+2025-02-15 15:42:07 [verbose]: Loaded AccountCreationOverlay!
+2025-02-15 15:42:07 [verbose]: Loading DialogOverlay...
+2025-02-15 15:42:07 [verbose]: Loaded DialogOverlay!
+2025-02-15 15:42:07 [verbose]: Loading MedalOverlay...
+2025-02-15 15:42:07 [verbose]: Loaded MedalOverlay!
+2025-02-15 15:42:07 [verbose]: Loading BackgroundDataStoreProcessor...
+2025-02-15 15:42:07 [verbose]: Beginning background data store processing..
+2025-02-15 15:42:07 [verbose]: Querying for beatmap sets to reprocess...
+2025-02-15 15:42:07 [verbose]: Loaded BackgroundDataStoreProcessor!
+2025-02-15 15:42:07 [verbose]: Loading RealmDetachedBeatmapStore...
+2025-02-15 15:42:07 [verbose]: Querying for beatmaps with missing hitobject counts to reprocess...
+2025-02-15 15:42:07 [verbose]: Querying for scores to reprocess...
+2025-02-15 15:42:07 [verbose]: Loaded RealmDetachedBeatmapStore!
+2025-02-15 15:42:07 [verbose]: Querying for scores that need total score conversion...
+2025-02-15 15:42:07 [verbose]: Found 0 scores which require total score conversion.
+2025-02-15 15:42:07 [verbose]: Querying for scores that need rank upgrades...
+2025-02-15 15:42:07 [verbose]: Found 0 scores which require rank upgrades.
+2025-02-15 15:42:07 [verbose]: Cannot backpopulate missing submission/rank dates because the local metadata cache is missing.
+2025-02-15 15:42:07 [verbose]: Finished background data store processing!
+2025-02-15 15:42:09 [verbose]: 📺 OsuScreenStack#368(depth:2) suspended IntroTriangles#468 (waiting on MainMenu#197)
+2025-02-15 15:42:09 [verbose]: 📺 OsuScreenStack#368(depth:3) entered MainMenu#197
+2025-02-15 15:42:11 [verbose]: 🌅 Global background change queued
+2025-02-15 15:42:11 [verbose]: 🌅 Global background loading
+2025-02-15 15:42:13 [verbose]: Current channel changed to #osu
+2025-02-15 15:42:14 [verbose]: ButtonSystem's state changed from Initial to TopLevel
+2025-02-15 15:42:20 [verbose]: ButtonSystem's state changed from TopLevel to Play
+2025-02-15 15:42:20 [verbose]: 📺 OsuScreenStack#368(depth:3) suspended MainMenu#197 (waiting on PlaySongSelect#141)
+2025-02-15 15:42:20 [verbose]: ButtonSystem's state changed from Play to EnteringMode
+2025-02-15 15:42:20 [verbose]: 📺 OsuScreenStack#368(depth:4) loading PlaySongSelect#141
+2025-02-15 15:42:20 [verbose]: decoupled ruleset transferred ("" -> "osu!")
+2025-02-15 15:42:20 [verbose]: Texture -'s upload queue is large (100)
+2025-02-15 15:42:20 [verbose]: Texture -'s upload queue is large (200)
+2025-02-15 15:42:21 [verbose]: 📺 OsuScreenStack#368(depth:4) entered PlaySongSelect#141
+2025-02-15 15:42:21 [verbose]: 📺 BackgroundScreenStack#830(depth:2) loading BackgroundScreenBeatmap#659
+2025-02-15 15:42:21 [verbose]: 📺 BackgroundScreenStack#830(depth:2) suspended BackgroundScreenDefault#320 (waiting on BackgroundScreenBeatmap#659)
+2025-02-15 15:42:21 [verbose]: 📺 BackgroundScreenStack#830(depth:2) entered BackgroundScreenBeatmap#659
+2025-02-15 15:42:21 [verbose]: Song select updating selection with beatmap: NIVIRO - The Return (Nuvolina) [Hard] f3dd6ce1-9e24-421c-b94b-c7b0e83b7f50 ruleset:osu
+2025-02-15 15:42:21 [verbose]: Song select changing beatmap from "cYsmix - triangles (peppy) [peppy]" to "NIVIRO - The Return (Nuvolina) [Hard]"
+2025-02-15 15:42:21 [verbose]: Game-wide working beatmap updated to NIVIRO - The Return (Nuvolina) [Hard]
+2025-02-15 15:42:21 [verbose]: Song select working beatmap updated to NIVIRO - The Return (Nuvolina) [Hard]
+2025-02-15 15:42:21 [verbose]: Song select decided to ensurePlayingSelected
+2025-02-15 15:42:21 [verbose]: Texture 12's upload queue is large (100)
+2025-02-15 15:42:21 [verbose]: 🌅 Global background change queued
+2025-02-15 15:42:26 [verbose]: Requesting catch-up from 8854120
+2025-02-15 15:42:26 [verbose]: Requesting any changes since last known queue id 8854120
+2025-02-15 15:42:30 [verbose]: Requesting catch-up from 8854170
+2025-02-15 15:42:30 [verbose]: Requesting any changes since last known queue id 8854170
+2025-02-15 15:42:30 [verbose]: Requesting catch-up from 8854220
+2025-02-15 15:42:30 [verbose]: Requesting any changes since last known queue id 8854220
+2025-02-15 15:42:31 [verbose]: Requesting catch-up from 8854270
+2025-02-15 15:42:31 [verbose]: Requesting any changes since last known queue id 8854270
+2025-02-15 15:42:31 [verbose]: Requesting catch-up from 8854320
+2025-02-15 15:42:31 [verbose]: Requesting any changes since last known queue id 8854320
+2025-02-15 15:42:31 [verbose]: Requesting catch-up from 8854370
+2025-02-15 15:42:31 [verbose]: Requesting any changes since last known queue id 8854370
+2025-02-15 15:42:32 [verbose]: Requesting catch-up from 8854420
+2025-02-15 15:42:32 [verbose]: Requesting any changes since last known queue id 8854420
+2025-02-15 15:42:32 [verbose]: Requesting catch-up from 8854470
+2025-02-15 15:42:32 [verbose]: Requesting any changes since last known queue id 8854470
+2025-02-15 15:42:33 [verbose]: Requesting catch-up from 8854520
+2025-02-15 15:42:33 [verbose]: Requesting any changes since last known queue id 8854520
+2025-02-15 15:42:33 [verbose]: Requesting catch-up from 8854570
+2025-02-15 15:42:33 [verbose]: Requesting any changes since last known queue id 8854570
+2025-02-15 15:42:33 [verbose]: Requesting catch-up from 8854620
+2025-02-15 15:42:33 [verbose]: Requesting any changes since last known queue id 8854620
+2025-02-15 15:42:33 [verbose]: Song select updating selection with beatmap: MYTH & ROID - STYX HELIX (Tsukuyomi) [wkyik's Insane] 21ce9158-71bd-4ba5-9211-c7b90e9e48e9 ruleset:osu
+2025-02-15 15:42:33 [verbose]: Song select changing beatmap from "NIVIRO - The Return (Nuvolina) [Hard]" to "MYTH & ROID - STYX HELIX (Tsukuyomi) [wkyik's Insane]"
+2025-02-15 15:42:33 [verbose]: Game-wide working beatmap updated to MYTH & ROID - STYX HELIX (Tsukuyomi) [wkyik's Insane]
+2025-02-15 15:42:33 [verbose]: Song select working beatmap updated to MYTH & ROID - STYX HELIX (Tsukuyomi) [wkyik's Insane]
+2025-02-15 15:42:33 [verbose]: Song select decided to ensurePlayingSelected
+2025-02-15 15:42:34 [verbose]: Requesting catch-up from 8854670
+2025-02-15 15:42:34 [verbose]: Requesting any changes since last known queue id 8854670
+2025-02-15 15:42:34 [verbose]: Requesting catch-up from 8854720
+2025-02-15 15:42:34 [verbose]: Requesting any changes since last known queue id 8854720
+2025-02-15 15:42:35 [verbose]: Requesting catch-up from 8854770
+2025-02-15 15:42:35 [verbose]: Requesting any changes since last known queue id 8854770
+2025-02-15 15:42:35 [verbose]: 📺 OsuScreenStack#368(depth:4) suspended PlaySongSelect#141 (waiting on PlayerLoader#429)
+2025-02-15 15:42:35 [verbose]: 📺 OsuScreenStack#368(depth:5) loading PlayerLoader#429
+2025-02-15 15:42:35 [verbose]: 📺 OsuScreenStack#368(depth:5) entered PlayerLoader#429
+2025-02-15 15:42:35 [verbose]: Requesting catch-up from 8854820
+2025-02-15 15:42:35 [verbose]: Requesting any changes since last known queue id 8854820
+2025-02-15 15:42:35 [verbose]: Requesting catch-up from 8854870
+2025-02-15 15:42:35 [verbose]: Requesting any changes since last known queue id 8854870
+2025-02-15 15:42:36 [verbose]: Requesting catch-up from 8854920
+2025-02-15 15:42:36 [verbose]: Requesting any changes since last known queue id 8854920
+2025-02-15 15:42:36 [verbose]: Successfully initialized decoder: h264
+2025-02-15 15:42:36 [verbose]: Texture -'s upload queue is large (100)
+2025-02-15 15:42:36 [verbose]: Requesting catch-up from 8854970
+2025-02-15 15:42:36 [verbose]: Requesting any changes since last known queue id 8854970
+2025-02-15 15:42:37 [verbose]: Requesting catch-up from 8855020
+2025-02-15 15:42:37 [verbose]: Requesting any changes since last known queue id 8855020
+2025-02-15 15:42:37 [verbose]: Score submission token retrieved (512420993)
+2025-02-15 15:42:37 [verbose]: Starting high performance session
+2025-02-15 15:42:37 [verbose]: Requesting catch-up from 8855070
+2025-02-15 15:42:37 [verbose]: Requesting any changes since last known queue id 8855070
+2025-02-15 15:42:37 [verbose]: 📺 OsuScreenStack#368(depth:5) suspended PlayerLoader#429 (waiting on SoloPlayer#558)
+2025-02-15 15:42:37 [verbose]: 📺 OsuScreenStack#368(depth:6) entered SoloPlayer#558
+2025-02-15 15:42:37 [verbose]: GameplayClockContainer seeking to 0
+2025-02-15 15:42:37 [verbose]: Requesting catch-up from 8855120
+2025-02-15 15:42:37 [verbose]: Requesting any changes since last known queue id 8855120
+2025-02-15 15:42:38 [verbose]: GameplayClockContainer started via call to StartGameplayClock
+2025-02-15 15:42:38 [verbose]: Requesting catch-up from 8855170
+2025-02-15 15:42:38 [verbose]: Requesting any changes since last known queue id 8855170
+2025-02-15 15:42:38 [verbose]: Requesting catch-up from 8855220
+2025-02-15 15:42:38 [verbose]: Requesting any changes since last known queue id 8855220
+2025-02-15 15:42:38 [verbose]: Requesting catch-up from 8855270
+2025-02-15 15:42:38 [verbose]: Requesting any changes since last known queue id 8855270
+2025-02-15 15:42:39 [verbose]: Requesting catch-up from 8855320
+2025-02-15 15:42:39 [verbose]: Requesting any changes since last known queue id 8855320
+2025-02-15 15:42:39 [verbose]: Requesting catch-up from 8855370
+2025-02-15 15:42:39 [verbose]: Requesting any changes since last known queue id 8855370
+2025-02-15 15:42:40 [verbose]: Requesting catch-up from 8855420
+2025-02-15 15:42:40 [verbose]: Requesting any changes since last known queue id 8855420
+2025-02-15 15:42:40 [verbose]: GameplayClockContainer seeking to 6109
+2025-02-15 15:42:40 [verbose]: Video too far out of sync (2461), seeking to 6109.0022675736955
+2025-02-15 15:42:40 [verbose]: Video too far out of sync (2503), seeking to 6109.0022675736955
+2025-02-15 15:42:40 [verbose]: Requesting catch-up from 8855470
+2025-02-15 15:42:40 [verbose]: Requesting any changes since last known queue id 8855470
+2025-02-15 15:42:41 [verbose]: Requesting catch-up from 8855520
+2025-02-15 15:42:41 [verbose]: Requesting any changes since last known queue id 8855520
+2025-02-15 15:42:41 [verbose]: Requesting catch-up from 8855570
+2025-02-15 15:42:41 [verbose]: Requesting any changes since last known queue id 8855570
+2025-02-15 15:42:41 [verbose]: Requesting catch-up from 8855620
+2025-02-15 15:42:41 [verbose]: Requesting any changes since last known queue id 8855620
+2025-02-15 15:42:42 [verbose]: Requesting catch-up from 8855670
+2025-02-15 15:42:42 [verbose]: Requesting any changes since last known queue id 8855670
+2025-02-15 15:42:42 [verbose]: Requesting catch-up from 8855720
+2025-02-15 15:42:42 [verbose]: Requesting any changes since last known queue id 8855720
+2025-02-15 15:42:42 [verbose]: Requesting catch-up from 8855770
+2025-02-15 15:42:42 [verbose]: Requesting any changes since last known queue id 8855770
+2025-02-15 15:42:43 [verbose]: Requesting catch-up from 8855820
+2025-02-15 15:42:43 [verbose]: Requesting any changes since last known queue id 8855820
+2025-02-15 15:42:43 [verbose]: Requesting catch-up from 8855870
+2025-02-15 15:42:43 [verbose]: Requesting any changes since last known queue id 8855870
+2025-02-15 15:42:44 [verbose]: Requesting catch-up from 8855920
+2025-02-15 15:42:44 [verbose]: Requesting any changes since last known queue id 8855920
+2025-02-15 15:42:44 [verbose]: Requesting catch-up from 8855970
+2025-02-15 15:42:44 [verbose]: Requesting any changes since last known queue id 8855970
+2025-02-15 15:42:45 [verbose]: Requesting catch-up from 8856020
+2025-02-15 15:42:45 [verbose]: Requesting any changes since last known queue id 8856020
+2025-02-15 15:42:45 [verbose]: Requesting catch-up from 8856070
+2025-02-15 15:42:45 [verbose]: Requesting any changes since last known queue id 8856070
+2025-02-15 15:42:45 [verbose]: Requesting catch-up from 8856120
+2025-02-15 15:42:45 [verbose]: Requesting any changes since last known queue id 8856120
+2025-02-15 15:42:46 [verbose]: Requesting catch-up from 8856170
+2025-02-15 15:42:46 [verbose]: Requesting any changes since last known queue id 8856170
+2025-02-15 15:42:46 [verbose]: Requesting catch-up from 8856220
+2025-02-15 15:42:46 [verbose]: Requesting any changes since last known queue id 8856220
+2025-02-15 15:42:46 [verbose]: Requesting catch-up from 8856270
+2025-02-15 15:42:46 [verbose]: Requesting any changes since last known queue id 8856270
+2025-02-15 15:42:47 [verbose]: Requesting catch-up from 8856320
+2025-02-15 15:42:47 [verbose]: Requesting any changes since last known queue id 8856320
+2025-02-15 15:42:47 [verbose]: Requesting catch-up from 8856370
+2025-02-15 15:42:47 [verbose]: Requesting any changes since last known queue id 8856370
+2025-02-15 15:42:48 [verbose]: Requesting catch-up from 8856420
+2025-02-15 15:42:48 [verbose]: Requesting any changes since last known queue id 8856420
+2025-02-15 15:42:48 [verbose]: Requesting catch-up from 8856470
+2025-02-15 15:42:48 [verbose]: Requesting any changes since last known queue id 8856470
+2025-02-15 15:42:49 [verbose]: Requesting catch-up from 8856520
+2025-02-15 15:42:49 [verbose]: Requesting any changes since last known queue id 8856520
+2025-02-15 15:42:49 [verbose]: Requesting catch-up from 8856570
+2025-02-15 15:42:49 [verbose]: Requesting any changes since last known queue id 8856570
+2025-02-15 15:42:49 [verbose]: Requesting catch-up from 8856620
+2025-02-15 15:42:49 [verbose]: Requesting any changes since last known queue id 8856620
+2025-02-15 15:42:50 [verbose]: Requesting catch-up from 8856670
+2025-02-15 15:42:50 [verbose]: Requesting any changes since last known queue id 8856670
+2025-02-15 15:42:50 [verbose]: Requesting catch-up from 8856720
+2025-02-15 15:42:50 [verbose]: Requesting any changes since last known queue id 8856720
+2025-02-15 15:42:51 [verbose]: Requesting catch-up from 8856770
+2025-02-15 15:42:51 [verbose]: Requesting any changes since last known queue id 8856770
+2025-02-15 15:42:51 [verbose]: Requesting catch-up from 8856820
+2025-02-15 15:42:51 [verbose]: Requesting any changes since last known queue id 8856820
+2025-02-15 15:42:51 [verbose]: Requesting catch-up from 8856870
+2025-02-15 15:42:51 [verbose]: Requesting any changes since last known queue id 8856870
+2025-02-15 15:42:52 [verbose]: Requesting catch-up from 8856920
+2025-02-15 15:42:52 [verbose]: Requesting any changes since last known queue id 8856920
+2025-02-15 15:42:52 [verbose]: Requesting catch-up from 8856970
+2025-02-15 15:42:52 [verbose]: Requesting any changes since last known queue id 8856970
+2025-02-15 15:42:53 [verbose]: Requesting catch-up from 8857020
+2025-02-15 15:42:53 [verbose]: Requesting any changes since last known queue id 8857020
+2025-02-15 15:42:53 [verbose]: Requesting catch-up from 8857070
+2025-02-15 15:42:53 [verbose]: Requesting any changes since last known queue id 8857070
+2025-02-15 15:42:53 [verbose]: Requesting catch-up from 8857120
+2025-02-15 15:42:53 [verbose]: Requesting any changes since last known queue id 8857120
+2025-02-15 15:42:54 [verbose]: Requesting catch-up from 8857170
+2025-02-15 15:42:54 [verbose]: Requesting any changes since last known queue id 8857170
+2025-02-15 15:42:54 [verbose]: Requesting catch-up from 8857220
+2025-02-15 15:42:54 [verbose]: Requesting any changes since last known queue id 8857220
+2025-02-15 15:42:55 [verbose]: Requesting catch-up from 8857270
+2025-02-15 15:42:55 [verbose]: Requesting any changes since last known queue id 8857270
+2025-02-15 15:42:55 [verbose]: Requesting catch-up from 8857320
+2025-02-15 15:42:55 [verbose]: Requesting any changes since last known queue id 8857320
+2025-02-15 15:42:56 [verbose]: Requesting catch-up from 8857370
+2025-02-15 15:42:56 [verbose]: Requesting any changes since last known queue id 8857370
+2025-02-15 15:42:56 [verbose]: Requesting catch-up from 8857420
+2025-02-15 15:42:56 [verbose]: Requesting any changes since last known queue id 8857420
+2025-02-15 15:42:56 [verbose]: Beginning score submission (token:512420993)...
+2025-02-15 15:42:57 [verbose]: Requesting catch-up from 8857470
+2025-02-15 15:42:57 [verbose]: Requesting any changes since last known queue id 8857470
+2025-02-15 15:42:57 [verbose]: Score submission completed! (token:512420993 id:4360229615)
+2025-02-15 15:42:57 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:42:57 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:42:57 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:42:57 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:42:57 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:42:57 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:42:57 [verbose]: Received beatmap updates 1 updates with last id 8861845
+2025-02-15 15:42:57 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:42:57 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:42:57 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:42:57 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:42:57 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:42:57 [verbose]: Requesting catch-up from 8857520
+2025-02-15 15:42:57 [verbose]: Requesting any changes since last known queue id 8857520
+2025-02-15 15:42:57 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:42:57 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:42:57 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:42:57 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:42:57 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:42:57 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:42:57 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:42:57 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:42:57 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:42:57 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:42:57 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:42:57 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:42:57 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:42:57 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:42:57 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:42:57 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:42:57 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:42:57 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:42:57 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:42:57 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:42:57 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:42:58 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:42:58 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:42:58 [verbose]: Requesting catch-up from 8857570
+2025-02-15 15:42:58 [verbose]: Requesting any changes since last known queue id 8857570
+2025-02-15 15:42:58 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:42:58 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:42:58 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:42:58 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:42:58 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:42:58 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:42:58 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:42:58 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:42:58 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:42:58 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:42:58 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:42:58 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:42:58 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:42:58 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:42:58 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:42:58 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:42:58 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:42:58 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:42:58 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:42:58 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:42:58 [verbose]: GameplayClockContainer stopped via call to StopGameplayClock
+2025-02-15 15:42:58 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:42:58 [verbose]: Requesting catch-up from 8857620
+2025-02-15 15:42:58 [verbose]: Requesting any changes since last known queue id 8857620
+2025-02-15 15:42:58 [verbose]: Requesting catch-up from 8857670
+2025-02-15 15:42:58 [verbose]: Requesting any changes since last known queue id 8857670
+2025-02-15 15:42:59 [verbose]: Requesting catch-up from 8857720
+2025-02-15 15:42:59 [verbose]: Requesting any changes since last known queue id 8857720
+2025-02-15 15:42:59 [verbose]: 📺 OsuScreenStack#368(depth:5) exit from SoloPlayer#558
+2025-02-15 15:42:59 [verbose]: 📺 OsuScreenStack#368(depth:5) resume to PlayerLoader#429
+2025-02-15 15:42:59 [verbose]: Ending high performance session
+2025-02-15 15:42:59 [verbose]: 📺 OsuScreenStack#368(depth:4) exit from PlayerLoader#429
+2025-02-15 15:42:59 [verbose]: 📺 OsuScreenStack#368(depth:4) resume to PlaySongSelect#141
+2025-02-15 15:42:59 [verbose]: Song select working beatmap updated to MYTH & ROID - STYX HELIX (Tsukuyomi) [wkyik's Insane]
+2025-02-15 15:42:59 [verbose]: Requesting catch-up from 8857770
+2025-02-15 15:42:59 [verbose]: Requesting any changes since last known queue id 8857770
+2025-02-15 15:42:59 [verbose]: Requesting catch-up from 8857820
+2025-02-15 15:42:59 [verbose]: Requesting any changes since last known queue id 8857820
+2025-02-15 15:43:00 [verbose]: Requesting catch-up from 8857870
+2025-02-15 15:43:00 [verbose]: Requesting any changes since last known queue id 8857870
+2025-02-15 15:43:00 [verbose]: Requesting catch-up from 8857920
+2025-02-15 15:43:00 [verbose]: Requesting any changes since last known queue id 8857920
+2025-02-15 15:43:01 [verbose]: Requesting catch-up from 8857970
+2025-02-15 15:43:01 [verbose]: Requesting any changes since last known queue id 8857970
+2025-02-15 15:43:01 [verbose]: Requesting catch-up from 8858020
+2025-02-15 15:43:01 [verbose]: Requesting any changes since last known queue id 8858020
+2025-02-15 15:43:02 [verbose]: Requesting catch-up from 8858070
+2025-02-15 15:43:02 [verbose]: Requesting any changes since last known queue id 8858070
+2025-02-15 15:43:02 [verbose]: Requesting catch-up from 8858120
+2025-02-15 15:43:02 [verbose]: Requesting any changes since last known queue id 8858120
+2025-02-15 15:43:02 [verbose]: Song select updating selection with beatmap: O2i3 - Ooi [Game Edit] (Fort) [Another] 9d76638f-f732-4d99-88f3-d1423f79e05a ruleset:osu
+2025-02-15 15:43:02 [verbose]: Song select changing beatmap from "MYTH & ROID - STYX HELIX (Tsukuyomi) [wkyik's Insane]" to "O2i3 - Ooi [Game Edit] (Fort) [Another]"
+2025-02-15 15:43:02 [verbose]: Game-wide working beatmap updated to O2i3 - Ooi [Game Edit] (Fort) [Another]
+2025-02-15 15:43:02 [verbose]: Song select working beatmap updated to O2i3 - Ooi [Game Edit] (Fort) [Another]
+2025-02-15 15:43:02 [verbose]: Song select decided to ensurePlayingSelected
+2025-02-15 15:43:02 [verbose]: Requesting catch-up from 8858170
+2025-02-15 15:43:02 [verbose]: Requesting any changes since last known queue id 8858170
+2025-02-15 15:43:03 [verbose]: Requesting catch-up from 8858220
+2025-02-15 15:43:03 [verbose]: Requesting any changes since last known queue id 8858220
+2025-02-15 15:43:03 [verbose]: 📺 OsuScreenStack#368(depth:4) suspended PlaySongSelect#141 (waiting on PlayerLoader#379)
+2025-02-15 15:43:03 [verbose]: 📺 OsuScreenStack#368(depth:5) loading PlayerLoader#379
+2025-02-15 15:43:03 [verbose]: 📺 OsuScreenStack#368(depth:5) entered PlayerLoader#379
+2025-02-15 15:43:03 [verbose]: Requesting catch-up from 8858270
+2025-02-15 15:43:03 [verbose]: Requesting any changes since last known queue id 8858270
+2025-02-15 15:43:04 [verbose]: Requesting catch-up from 8858320
+2025-02-15 15:43:04 [verbose]: Requesting any changes since last known queue id 8858320
+2025-02-15 15:43:04 [verbose]: Requesting catch-up from 8858370
+2025-02-15 15:43:04 [verbose]: Requesting any changes since last known queue id 8858370
+2025-02-15 15:43:04 [verbose]: Score submission token retrieved (512421570)
+2025-02-15 15:43:04 [verbose]: Requesting catch-up from 8858420
+2025-02-15 15:43:04 [verbose]: Requesting any changes since last known queue id 8858420
+2025-02-15 15:43:05 [verbose]: Starting high performance session
+2025-02-15 15:43:05 [verbose]: Requesting catch-up from 8858470
+2025-02-15 15:43:05 [verbose]: Requesting any changes since last known queue id 8858470
+2025-02-15 15:43:05 [verbose]: 📺 OsuScreenStack#368(depth:5) suspended PlayerLoader#379 (waiting on SoloPlayer#473)
+2025-02-15 15:43:05 [verbose]: 📺 OsuScreenStack#368(depth:6) entered SoloPlayer#473
+2025-02-15 15:43:05 [verbose]: GameplayClockContainer seeking to 0
+2025-02-15 15:43:05 [verbose]: Requesting catch-up from 8858520
+2025-02-15 15:43:05 [verbose]: Requesting any changes since last known queue id 8858520
+2025-02-15 15:43:05 [verbose]: GameplayClockContainer started via call to StartGameplayClock
+2025-02-15 15:43:06 [verbose]: Requesting catch-up from 8858570
+2025-02-15 15:43:06 [verbose]: Requesting any changes since last known queue id 8858570
+2025-02-15 15:43:06 [verbose]: Requesting catch-up from 8858620
+2025-02-15 15:43:06 [verbose]: Requesting any changes since last known queue id 8858620
+2025-02-15 15:43:07 [verbose]: Requesting catch-up from 8858670
+2025-02-15 15:43:07 [verbose]: Requesting any changes since last known queue id 8858670
+2025-02-15 15:43:07 [verbose]: Requesting catch-up from 8858720
+2025-02-15 15:43:07 [verbose]: Requesting any changes since last known queue id 8858720
+2025-02-15 15:43:08 [verbose]: Requesting catch-up from 8858770
+2025-02-15 15:43:08 [verbose]: Requesting any changes since last known queue id 8858770
+2025-02-15 15:43:08 [verbose]: Requesting catch-up from 8858820
+2025-02-15 15:43:08 [verbose]: Requesting any changes since last known queue id 8858820
+2025-02-15 15:43:08 [verbose]: Requesting catch-up from 8858870
+2025-02-15 15:43:08 [verbose]: Requesting any changes since last known queue id 8858870
+2025-02-15 15:43:09 [verbose]: Requesting catch-up from 8858920
+2025-02-15 15:43:09 [verbose]: Requesting any changes since last known queue id 8858920
+2025-02-15 15:43:09 [verbose]: Requesting catch-up from 8858970
+2025-02-15 15:43:09 [verbose]: Requesting any changes since last known queue id 8858970
+2025-02-15 15:43:10 [verbose]: Requesting catch-up from 8859020
+2025-02-15 15:43:10 [verbose]: Requesting any changes since last known queue id 8859020
+2025-02-15 15:43:10 [verbose]: Requesting catch-up from 8859070
+2025-02-15 15:43:10 [verbose]: Requesting any changes since last known queue id 8859070
+2025-02-15 15:43:11 [verbose]: Requesting catch-up from 8859120
+2025-02-15 15:43:11 [verbose]: Requesting any changes since last known queue id 8859120
+2025-02-15 15:43:11 [verbose]: Requesting catch-up from 8859170
+2025-02-15 15:43:11 [verbose]: Requesting any changes since last known queue id 8859170
+2025-02-15 15:43:11 [verbose]: Requesting catch-up from 8859220
+2025-02-15 15:43:11 [verbose]: Requesting any changes since last known queue id 8859220
+2025-02-15 15:43:12 [verbose]: Requesting catch-up from 8859270
+2025-02-15 15:43:12 [verbose]: Requesting any changes since last known queue id 8859270
+2025-02-15 15:43:12 [verbose]: Requesting catch-up from 8859320
+2025-02-15 15:43:12 [verbose]: Requesting any changes since last known queue id 8859320
+2025-02-15 15:43:13 [verbose]: Requesting catch-up from 8859370
+2025-02-15 15:43:13 [verbose]: Requesting any changes since last known queue id 8859370
+2025-02-15 15:43:13 [verbose]: Requesting catch-up from 8859420
+2025-02-15 15:43:13 [verbose]: Requesting any changes since last known queue id 8859420
+2025-02-15 15:43:13 [verbose]: Requesting catch-up from 8859470
+2025-02-15 15:43:13 [verbose]: Requesting any changes since last known queue id 8859470
+2025-02-15 15:43:14 [verbose]: Requesting catch-up from 8859520
+2025-02-15 15:43:14 [verbose]: Requesting any changes since last known queue id 8859520
+2025-02-15 15:43:14 [verbose]: Requesting catch-up from 8859570
+2025-02-15 15:43:14 [verbose]: Requesting any changes since last known queue id 8859570
+2025-02-15 15:43:15 [verbose]: Requesting catch-up from 8859620
+2025-02-15 15:43:15 [verbose]: Requesting any changes since last known queue id 8859620
+2025-02-15 15:43:15 [verbose]: Requesting catch-up from 8859670
+2025-02-15 15:43:15 [verbose]: Requesting any changes since last known queue id 8859670
+2025-02-15 15:43:15 [verbose]: Requesting catch-up from 8859720
+2025-02-15 15:43:15 [verbose]: Requesting any changes since last known queue id 8859720
+2025-02-15 15:43:16 [verbose]: Requesting catch-up from 8859770
+2025-02-15 15:43:16 [verbose]: Requesting any changes since last known queue id 8859770
+2025-02-15 15:43:16 [verbose]: Requesting catch-up from 8859820
+2025-02-15 15:43:16 [verbose]: Requesting any changes since last known queue id 8859820
+2025-02-15 15:43:17 [verbose]: Requesting catch-up from 8859870
+2025-02-15 15:43:17 [verbose]: Requesting any changes since last known queue id 8859870
+2025-02-15 15:43:17 [verbose]: Requesting catch-up from 8859920
+2025-02-15 15:43:17 [verbose]: Requesting any changes since last known queue id 8859920
+2025-02-15 15:43:18 [verbose]: Requesting catch-up from 8859970
+2025-02-15 15:43:18 [verbose]: Requesting any changes since last known queue id 8859970
+2025-02-15 15:43:18 [verbose]: Requesting catch-up from 8860020
+2025-02-15 15:43:18 [verbose]: Requesting any changes since last known queue id 8860020
+2025-02-15 15:43:18 [verbose]: Requesting catch-up from 8860070
+2025-02-15 15:43:18 [verbose]: Requesting any changes since last known queue id 8860070
+2025-02-15 15:43:19 [verbose]: Requesting catch-up from 8860120
+2025-02-15 15:43:19 [verbose]: Requesting any changes since last known queue id 8860120
+2025-02-15 15:43:19 [verbose]: Requesting catch-up from 8860170
+2025-02-15 15:43:19 [verbose]: Requesting any changes since last known queue id 8860170
+2025-02-15 15:43:20 [verbose]: Requesting catch-up from 8860220
+2025-02-15 15:43:20 [verbose]: Requesting any changes since last known queue id 8860220
+2025-02-15 15:43:20 [verbose]: Requesting catch-up from 8860270
+2025-02-15 15:43:20 [verbose]: Requesting any changes since last known queue id 8860270
+2025-02-15 15:43:21 [verbose]: Requesting catch-up from 8860320
+2025-02-15 15:43:21 [verbose]: Requesting any changes since last known queue id 8860320
+2025-02-15 15:43:21 [verbose]: Requesting catch-up from 8860370
+2025-02-15 15:43:21 [verbose]: Requesting any changes since last known queue id 8860370
+2025-02-15 15:43:21 [verbose]: Requesting catch-up from 8860420
+2025-02-15 15:43:21 [verbose]: Requesting any changes since last known queue id 8860420
+2025-02-15 15:43:22 [verbose]: Requesting catch-up from 8860470
+2025-02-15 15:43:22 [verbose]: Requesting any changes since last known queue id 8860470
+2025-02-15 15:43:22 [verbose]: Requesting catch-up from 8860520
+2025-02-15 15:43:22 [verbose]: Requesting any changes since last known queue id 8860520
+2025-02-15 15:43:23 [verbose]: Requesting catch-up from 8860570
+2025-02-15 15:43:23 [verbose]: Requesting any changes since last known queue id 8860570
+2025-02-15 15:43:23 [verbose]: Requesting catch-up from 8860620
+2025-02-15 15:43:23 [verbose]: Requesting any changes since last known queue id 8860620
+2025-02-15 15:43:23 [verbose]: Requesting catch-up from 8860670
+2025-02-15 15:43:23 [verbose]: Requesting any changes since last known queue id 8860670
+2025-02-15 15:43:24 [verbose]: Requesting catch-up from 8860720
+2025-02-15 15:43:24 [verbose]: Requesting any changes since last known queue id 8860720
+2025-02-15 15:43:24 [verbose]: Requesting catch-up from 8860770
+2025-02-15 15:43:24 [verbose]: Requesting any changes since last known queue id 8860770
+2025-02-15 15:43:25 [verbose]: Requesting catch-up from 8860820
+2025-02-15 15:43:25 [verbose]: Requesting any changes since last known queue id 8860820
+2025-02-15 15:43:25 [verbose]: Requesting catch-up from 8860870
+2025-02-15 15:43:25 [verbose]: Requesting any changes since last known queue id 8860870
+2025-02-15 15:43:25 [verbose]: Requesting catch-up from 8860920
+2025-02-15 15:43:25 [verbose]: Requesting any changes since last known queue id 8860920
+2025-02-15 15:43:26 [verbose]: Requesting catch-up from 8860970
+2025-02-15 15:43:26 [verbose]: Requesting any changes since last known queue id 8860970
+2025-02-15 15:43:26 [verbose]: Requesting catch-up from 8861020
+2025-02-15 15:43:26 [verbose]: Requesting any changes since last known queue id 8861020
+2025-02-15 15:43:27 [verbose]: Requesting catch-up from 8861070
+2025-02-15 15:43:27 [verbose]: Requesting any changes since last known queue id 8861070
+2025-02-15 15:43:27 [verbose]: Requesting catch-up from 8861120
+2025-02-15 15:43:27 [verbose]: Requesting any changes since last known queue id 8861120
+2025-02-15 15:43:27 [verbose]: Requesting catch-up from 8861170
+2025-02-15 15:43:27 [verbose]: Requesting any changes since last known queue id 8861170
+2025-02-15 15:43:28 [verbose]: Requesting catch-up from 8861220
+2025-02-15 15:43:28 [verbose]: Requesting any changes since last known queue id 8861220
+2025-02-15 15:43:28 [verbose]: Requesting catch-up from 8861270
+2025-02-15 15:43:28 [verbose]: Requesting any changes since last known queue id 8861270
+2025-02-15 15:43:29 [verbose]: Requesting catch-up from 8861320
+2025-02-15 15:43:29 [verbose]: Requesting any changes since last known queue id 8861320
+2025-02-15 15:43:29 [verbose]: Requesting catch-up from 8861370
+2025-02-15 15:43:29 [verbose]: Requesting any changes since last known queue id 8861370
+2025-02-15 15:43:29 [verbose]: Requesting catch-up from 8861420
+2025-02-15 15:43:29 [verbose]: Requesting any changes since last known queue id 8861420
+2025-02-15 15:43:30 [verbose]: Requesting catch-up from 8861470
+2025-02-15 15:43:30 [verbose]: Requesting any changes since last known queue id 8861470
+2025-02-15 15:43:30 [verbose]: Requesting catch-up from 8861520
+2025-02-15 15:43:30 [verbose]: Requesting any changes since last known queue id 8861520
+2025-02-15 15:43:31 [verbose]: Requesting catch-up from 8861570
+2025-02-15 15:43:31 [verbose]: Requesting any changes since last known queue id 8861570
+2025-02-15 15:43:31 [verbose]: Requesting catch-up from 8861620
+2025-02-15 15:43:31 [verbose]: Requesting any changes since last known queue id 8861620
+2025-02-15 15:43:31 [verbose]: Requesting catch-up from 8861670
+2025-02-15 15:43:31 [verbose]: Requesting any changes since last known queue id 8861670
+2025-02-15 15:43:32 [verbose]: Requesting catch-up from 8861720
+2025-02-15 15:43:32 [verbose]: Requesting any changes since last known queue id 8861720
+2025-02-15 15:43:32 [verbose]: Requesting catch-up from 8861770
+2025-02-15 15:43:32 [verbose]: Requesting any changes since last known queue id 8861770
+2025-02-15 15:43:33 [verbose]: Requesting catch-up from 8861820
+2025-02-15 15:43:33 [verbose]: Requesting any changes since last known queue id 8861820
+2025-02-15 15:43:33 [verbose]: Requesting catch-up from 8861845
+2025-02-15 15:43:33 [verbose]: Requesting any changes since last known queue id 8861845
+2025-02-15 15:43:33 [verbose]: Catch-up complete at 8861845
+2025-02-15 15:43:37 [verbose]: Received beatmap updates 1 updates with last id 8861846
+2025-02-15 15:44:02 [verbose]: Received beatmap updates 2 updates with last id 8861848
+2025-02-15 15:44:08 [verbose]: Received beatmap updates 1 updates with last id 8861849
+2025-02-15 15:44:58 [verbose]: Received beatmap updates 1 updates with last id 8861850
+2025-02-15 15:45:03 [verbose]: Beginning score submission (token:512421570)...
+2025-02-15 15:45:04 [verbose]: Score submission completed! (token:512421570 id:4360242132)
+2025-02-15 15:45:07 [verbose]: 📺 OsuScreenStack#368(depth:6) suspended SoloPlayer#473 (waiting on SoloResultsScreen#204)
+2025-02-15 15:45:07 [verbose]: 📺 OsuScreenStack#368(depth:7) loading SoloResultsScreen#204
+2025-02-15 15:45:07 [verbose]: 📺 OsuScreenStack#368(depth:7) entered SoloResultsScreen#204
+2025-02-15 15:45:13 [verbose]: 📺 OsuScreenStack#368(depth:6) exit from SoloResultsScreen#204
+2025-02-15 15:45:13 [verbose]: 📺 OsuScreenStack#368(depth:6) resume to SoloPlayer#473
+2025-02-15 15:45:13 [verbose]: 📺 OsuScreenStack#368(depth:5) exit from SoloPlayer#473
+2025-02-15 15:45:13 [verbose]: 📺 OsuScreenStack#368(depth:5) resume to PlayerLoader#379
+2025-02-15 15:45:13 [verbose]: Ending high performance session
+2025-02-15 15:45:13 [verbose]: 📺 OsuScreenStack#368(depth:4) exit from PlayerLoader#379
+2025-02-15 15:45:13 [verbose]: 📺 OsuScreenStack#368(depth:4) resume to PlaySongSelect#141
+2025-02-15 15:45:13 [verbose]: Song select working beatmap updated to O2i3 - Ooi [Game Edit] (Fort) [Another]
+2025-02-15 15:45:17 [verbose]: Focus contention triggered by DialogOverlay.
+2025-02-15 15:45:20 [verbose]: Focus contention triggered by DialogOverlay.
+2025-02-15 15:45:23 [verbose]: Song select updating selection with beatmap: natori - Overdose (AirinCat) [Insane] 9cdf3ed6-fb0c-4597-b610-a0a6e17677cc ruleset:osu
+2025-02-15 15:45:23 [verbose]: Song select changing beatmap from "O2i3 - Ooi [Game Edit] (Fort) [Another]" to "natori - Overdose (AirinCat) [Insane]"
+2025-02-15 15:45:23 [verbose]: Game-wide working beatmap updated to natori - Overdose (AirinCat) [Insane]
+2025-02-15 15:45:23 [verbose]: Song select working beatmap updated to natori - Overdose (AirinCat) [Insane]
+2025-02-15 15:45:23 [verbose]: Song select decided to ensurePlayingSelected
+2025-02-15 15:45:24 [verbose]: Song select updating selection with beatmap: Yoshida Yasei - Override (Ryuusei Aika) [kitty's Hard] 3f569a62-69b5-4fae-a8e8-b46776ec1a3f ruleset:osu
+2025-02-15 15:45:24 [verbose]: Song select changing beatmap from "natori - Overdose (AirinCat) [Insane]" to "Yoshida Yasei - Override (Ryuusei Aika) [kitty's Hard]"
+2025-02-15 15:45:24 [verbose]: Game-wide working beatmap updated to Yoshida Yasei - Override (Ryuusei Aika) [kitty's Hard]
+2025-02-15 15:45:24 [verbose]: Song select working beatmap updated to Yoshida Yasei - Override (Ryuusei Aika) [kitty's Hard]
+2025-02-15 15:45:24 [verbose]: Song select decided to ensurePlayingSelected
+2025-02-15 15:45:25 [verbose]: 📺 OsuScreenStack#368(depth:4) suspended PlaySongSelect#141 (waiting on PlayerLoader#385)
+2025-02-15 15:45:25 [verbose]: 📺 OsuScreenStack#368(depth:5) loading PlayerLoader#385
+2025-02-15 15:45:25 [verbose]: 📺 OsuScreenStack#368(depth:5) entered PlayerLoader#385
+2025-02-15 15:45:26 [verbose]: Successfully initialized decoder: h264
+2025-02-15 15:45:26 [verbose]: Score submission token retrieved (512424768)
+2025-02-15 15:45:27 [verbose]: Starting high performance session
+2025-02-15 15:45:27 [verbose]: 📺 OsuScreenStack#368(depth:5) suspended PlayerLoader#385 (waiting on SoloPlayer#575)
+2025-02-15 15:45:27 [verbose]: 📺 OsuScreenStack#368(depth:6) entered SoloPlayer#575
+2025-02-15 15:45:27 [verbose]: GameplayClockContainer seeking to -1678
+2025-02-15 15:45:28 [verbose]: GameplayClockContainer started via call to StartGameplayClock
+2025-02-15 15:45:28 [verbose]: Received beatmap updates 1 updates with last id 8861851
+2025-02-15 15:45:33 [verbose]: Received beatmap updates 1 updates with last id 8861852
+2025-02-15 15:45:38 [verbose]: Received beatmap updates 1 updates with last id 8861853
+2025-02-15 15:46:13 [verbose]: Received beatmap updates 1 updates with last id 8861854
+2025-02-15 15:47:38 [verbose]: Beginning score submission (token:512424768)...
+2025-02-15 15:47:39 [verbose]: Score submission completed! (token:512424768 id:4360257458)
+2025-02-15 15:47:39 [verbose]: 📺 OsuScreenStack#368(depth:6) suspended SoloPlayer#575 (waiting on SoloResultsScreen#427)
+2025-02-15 15:47:39 [verbose]: 📺 OsuScreenStack#368(depth:7) loading SoloResultsScreen#427
+2025-02-15 15:47:39 [verbose]: 📺 OsuScreenStack#368(depth:7) entered SoloResultsScreen#427
+2025-02-15 15:47:41 [verbose]: 📺 OsuScreenStack#368(depth:6) exit from SoloResultsScreen#427
+2025-02-15 15:47:41 [verbose]: 📺 OsuScreenStack#368(depth:6) resume to SoloPlayer#575
+2025-02-15 15:47:41 [verbose]: 📺 OsuScreenStack#368(depth:5) exit from SoloPlayer#575
+2025-02-15 15:47:41 [verbose]: 📺 OsuScreenStack#368(depth:5) resume to PlayerLoader#385
+2025-02-15 15:47:41 [verbose]: Ending high performance session
+2025-02-15 15:47:41 [verbose]: 📺 OsuScreenStack#368(depth:4) exit from PlayerLoader#385
+2025-02-15 15:47:41 [verbose]: 📺 OsuScreenStack#368(depth:4) resume to PlaySongSelect#141
+2025-02-15 15:47:41 [verbose]: Song select working beatmap updated to Yoshida Yasei - Override (Ryuusei Aika) [kitty's Hard]
+2025-02-15 15:47:44 [verbose]: Focus contention triggered by DialogOverlay.
+2025-02-15 15:47:49 [verbose]: Focus contention triggered by DialogOverlay.
+2025-02-15 15:47:52 [verbose]: Song select updating selection with beatmap: MIMiNARI - Nemurenai feat. Kusunoki Tomori (TV Size) (Tenma Saki) [K's Slumbering Insane] e16cb1aa-f291-4bd2-84fb-aed173d6e76c ruleset:osu
+2025-02-15 15:47:52 [verbose]: Song select changing beatmap from "Yoshida Yasei - Override (Ryuusei Aika) [kitty's Hard]" to "MIMiNARI - Nemurenai feat. Kusunoki Tomori (TV Size) (Tenma Saki) [K's Slumbering Insane]"
+2025-02-15 15:47:52 [verbose]: Game-wide working beatmap updated to MIMiNARI - Nemurenai feat. Kusunoki Tomori (TV Size) (Tenma Saki) [K's Slumbering Insane]
+2025-02-15 15:47:52 [verbose]: Song select working beatmap updated to MIMiNARI - Nemurenai feat. Kusunoki Tomori (TV Size) (Tenma Saki) [K's Slumbering Insane]
+2025-02-15 15:47:52 [verbose]: Song select decided to ensurePlayingSelected
+2025-02-15 15:47:54 [verbose]: Song select updating selection with beatmap: Various Artists - Mizu's Jump Training #2 (Mizu) [Bonus: Free Fall] d6fde96d-bae6-48fb-a453-d8993e11c0ba ruleset:osu
+2025-02-15 15:47:54 [verbose]: Song select changing beatmap from "MIMiNARI - Nemurenai feat. Kusunoki Tomori (TV Size) (Tenma Saki) [K's Slumbering Insane]" to "Various Artists - Mizu's Jump Training #2 (Mizu) [Bonus: Free Fall]"
+2025-02-15 15:47:54 [verbose]: Game-wide working beatmap updated to Various Artists - Mizu's Jump Training #2 (Mizu) [Bonus: Free Fall]
+2025-02-15 15:47:54 [verbose]: Song select working beatmap updated to Various Artists - Mizu's Jump Training #2 (Mizu) [Bonus: Free Fall]
+2025-02-15 15:47:54 [verbose]: Song select decided to ensurePlayingSelected
+2025-02-15 15:47:56 [verbose]: Song select updating selection with beatmap: ZUTOMAYO - Minority Myakuraku (0ugi) [Flake's Insane] 537281c4-5557-4480-beee-ac9327b8bdd8 ruleset:osu
+2025-02-15 15:47:56 [verbose]: Song select changing beatmap from "Various Artists - Mizu's Jump Training #2 (Mizu) [Bonus: Free Fall]" to "ZUTOMAYO - Minority Myakuraku (0ugi) [Flake's Insane]"
+2025-02-15 15:47:56 [verbose]: Game-wide working beatmap updated to ZUTOMAYO - Minority Myakuraku (0ugi) [Flake's Insane]
+2025-02-15 15:47:56 [verbose]: Song select working beatmap updated to ZUTOMAYO - Minority Myakuraku (0ugi) [Flake's Insane]
+2025-02-15 15:47:56 [verbose]: Song select decided to ensurePlayingSelected
+2025-02-15 15:47:57 [verbose]: Song select updating selection with beatmap: toby fox - MEGALOVANIA (Kyshiro) [Hard] 1ed3089c-fd3d-48f4-8269-2ab1b27d3793 ruleset:osu
+2025-02-15 15:47:57 [verbose]: Song select changing beatmap from "ZUTOMAYO - Minority Myakuraku (0ugi) [Flake's Insane]" to "toby fox - MEGALOVANIA (Kyshiro) [Hard]"
+2025-02-15 15:47:57 [verbose]: Game-wide working beatmap updated to toby fox - MEGALOVANIA (Kyshiro) [Hard]
+2025-02-15 15:47:57 [verbose]: Song select working beatmap updated to toby fox - MEGALOVANIA (Kyshiro) [Hard]
+2025-02-15 15:47:57 [verbose]: Song select decided to ensurePlayingSelected
+2025-02-15 15:47:58 [verbose]: Song select updating selection with beatmap: MIMI feat. Hatsune Miku - Marshmary (Log Off Now) [Hard] 8043a43f-f51d-4ac2-b571-47c3159780a0 ruleset:osu
+2025-02-15 15:47:58 [verbose]: Song select changing beatmap from "toby fox - MEGALOVANIA (Kyshiro) [Hard]" to "MIMI feat. Hatsune Miku - Marshmary (Log Off Now) [Hard]"
+2025-02-15 15:47:58 [verbose]: Game-wide working beatmap updated to MIMI feat. Hatsune Miku - Marshmary (Log Off Now) [Hard]
+2025-02-15 15:47:58 [verbose]: Song select working beatmap updated to MIMI feat. Hatsune Miku - Marshmary (Log Off Now) [Hard]
+2025-02-15 15:47:58 [verbose]: Song select decided to ensurePlayingSelected
+2025-02-15 15:47:59 [verbose]: Song select updating selection with beatmap: EmoCosine - Love Kills U (Short Ver.) (smolship) [Hard] ae9a3810-720b-4b03-85ec-9c0ad34b3559 ruleset:osu
+2025-02-15 15:47:59 [verbose]: Song select changing beatmap from "MIMI feat. Hatsune Miku - Marshmary (Log Off Now) [Hard]" to "EmoCosine - Love Kills U (Short Ver.) (smolship) [Hard]"
+2025-02-15 15:47:59 [verbose]: Game-wide working beatmap updated to EmoCosine - Love Kills U (Short Ver.) (smolship) [Hard]
+2025-02-15 15:47:59 [verbose]: Song select working beatmap updated to EmoCosine - Love Kills U (Short Ver.) (smolship) [Hard]
+2025-02-15 15:47:59 [verbose]: Song select decided to ensurePlayingSelected
+2025-02-15 15:48:14 [verbose]: Received beatmap updates 1 updates with last id 8861855
+2025-02-15 15:48:37 [verbose]: 📺 OsuScreenStack#368(depth:4) suspended PlaySongSelect#141 (waiting on PlayerLoader#415)
+2025-02-15 15:48:37 [verbose]: 📺 OsuScreenStack#368(depth:5) loading PlayerLoader#415
+2025-02-15 15:48:37 [verbose]: 📺 OsuScreenStack#368(depth:5) entered PlayerLoader#415
+2025-02-15 15:48:38 [verbose]: Score submission token retrieved (512429118)
+2025-02-15 15:48:39 [verbose]: Starting high performance session
+2025-02-15 15:48:39 [verbose]: 📺 OsuScreenStack#368(depth:5) suspended PlayerLoader#415 (waiting on SoloPlayer#668)
+2025-02-15 15:48:39 [verbose]: 📺 OsuScreenStack#368(depth:6) entered SoloPlayer#668
+2025-02-15 15:48:39 [verbose]: GameplayClockContainer seeking to 0
+2025-02-15 15:48:39 [verbose]: GameplayClockContainer started via call to StartGameplayClock
+2025-02-15 15:48:44 [verbose]: Received beatmap updates 1 updates with last id 8861856
+2025-02-15 15:49:04 [verbose]: Beginning score submission (token:512429118)...
+2025-02-15 15:49:05 [verbose]: Score submission completed! (token:512429118 id:4360266218)
+2025-02-15 15:49:05 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:05 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:05 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:05 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:05 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:05 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:05 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:05 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:05 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:05 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:05 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:05 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:05 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:05 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:05 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:05 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:05 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:05 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:05 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:05 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:05 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:05 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:05 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:05 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:05 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:05 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:05 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:05 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:05 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:05 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:05 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:05 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:05 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:05 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:05 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:05 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:05 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:05 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:05 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:05 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:06 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:06 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:06 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:06 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:06 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:06 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:06 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:06 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:06 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:06 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:06 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:06 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:06 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:06 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:06 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:06 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:06 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:06 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:06 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:06 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:06 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:06 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:06 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:06 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:06 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:06 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:06 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:06 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:06 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:06 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:06 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:06 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:06 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:06 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:06 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:06 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:06 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:06 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:06 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:06 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:06 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:06 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:06 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:06 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:06 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:06 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:06 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:06 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:06 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:06 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:06 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:06 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:06 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:06 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:06 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:06 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:06 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:06 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:06 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:06 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-15 15:49:07 [verbose]: GameplayClockContainer stopped via call to StopGameplayClock
+2025-02-15 15:49:15 [verbose]: Received beatmap updates 1 updates with last id 8861857
+2025-02-15 15:49:15 [verbose]: 📺 OsuScreenStack#368(depth:5) exit from SoloPlayer#668
+2025-02-15 15:49:15 [verbose]: 📺 OsuScreenStack#368(depth:5) resume to PlayerLoader#415
+2025-02-15 15:49:15 [verbose]: Ending high performance session
+2025-02-15 15:49:17 [verbose]: Score submission token retrieved (512430009)
+2025-02-15 15:49:17 [verbose]: Starting high performance session
+2025-02-15 15:49:18 [verbose]: 📺 OsuScreenStack#368(depth:5) suspended PlayerLoader#415 (waiting on SoloPlayer#656)
+2025-02-15 15:49:18 [verbose]: 📺 OsuScreenStack#368(depth:6) entered SoloPlayer#656
+2025-02-15 15:49:18 [verbose]: GameplayClockContainer seeking to 0
+2025-02-15 15:49:18 [verbose]: GameplayClockContainer started via call to StartGameplayClock
+2025-02-15 15:49:35 [verbose]: Received beatmap updates 1 updates with last id 8861858
+2025-02-15 15:49:50 [verbose]: Received beatmap updates 1 updates with last id 8861859
+2025-02-15 15:49:55 [verbose]: Received beatmap updates 1 updates with last id 8861860
+2025-02-15 15:50:20 [verbose]: Received beatmap updates 1 updates with last id 8861861
+2025-02-15 15:50:50 [verbose]: Received beatmap updates 1 updates with last id 8861862
+2025-02-15 15:51:16 [verbose]: Received beatmap updates 2 updates with last id 8861864
+2025-02-15 15:51:22 [verbose]: Beginning score submission (token:512430009)...
+2025-02-15 15:51:23 [verbose]: Score submission completed! (token:512430009 id:4360280006)
+2025-02-15 15:51:23 [verbose]: 📺 OsuScreenStack#368(depth:6) suspended SoloPlayer#656 (waiting on SoloResultsScreen#596)
+2025-02-15 15:51:23 [verbose]: 📺 OsuScreenStack#368(depth:7) loading SoloResultsScreen#596
+2025-02-15 15:51:23 [verbose]: 📺 OsuScreenStack#368(depth:7) entered SoloResultsScreen#596
+2025-02-15 15:51:24 [verbose]: 📺 OsuScreenStack#368(depth:6) exit from SoloResultsScreen#596
+2025-02-15 15:51:24 [verbose]: 📺 OsuScreenStack#368(depth:6) resume to SoloPlayer#656
+2025-02-15 15:51:24 [verbose]: 📺 OsuScreenStack#368(depth:5) exit from SoloPlayer#656
+2025-02-15 15:51:24 [verbose]: 📺 OsuScreenStack#368(depth:5) resume to PlayerLoader#415
+2025-02-15 15:51:24 [verbose]: Ending high performance session
+2025-02-15 15:51:24 [verbose]: 📺 OsuScreenStack#368(depth:4) exit from PlayerLoader#415
+2025-02-15 15:51:24 [verbose]: 📺 OsuScreenStack#368(depth:4) resume to PlaySongSelect#141
+2025-02-15 15:51:24 [verbose]: Song select working beatmap updated to EmoCosine - Love Kills U (Short Ver.) (smolship) [Hard]
+2025-02-15 15:51:26 [verbose]: Focus contention triggered by DialogOverlay.
+2025-02-15 15:51:30 [verbose]: Song select updating selection with beatmap: the peggies - Kimi no Sei (TV Size) (Sotarks) [NiNo's Insane] 702e4884-434d-4aa4-a646-1c7fcddbeb32 ruleset:osu
+2025-02-15 15:51:30 [verbose]: Song select changing beatmap from "EmoCosine - Love Kills U (Short Ver.) (smolship) [Hard]" to "the peggies - Kimi no Sei (TV Size) (Sotarks) [NiNo's Insane]"
+2025-02-15 15:51:30 [verbose]: Game-wide working beatmap updated to the peggies - Kimi no Sei (TV Size) (Sotarks) [NiNo's Insane]
+2025-02-15 15:51:30 [verbose]: Song select working beatmap updated to the peggies - Kimi no Sei (TV Size) (Sotarks) [NiNo's Insane]
+2025-02-15 15:51:30 [verbose]: Song select decided to ensurePlayingSelected
+2025-02-15 15:51:30 [verbose]: 📺 OsuScreenStack#368(depth:4) suspended PlaySongSelect#141 (waiting on PlayerLoader#338)
+2025-02-15 15:51:30 [verbose]: 📺 OsuScreenStack#368(depth:5) loading PlayerLoader#338
+2025-02-15 15:51:31 [verbose]: 📺 OsuScreenStack#368(depth:5) entered PlayerLoader#338
+2025-02-15 15:51:31 [verbose]: Successfully initialized decoder: h264
+2025-02-15 15:51:32 [verbose]: Score submission token retrieved (512432983)
+2025-02-15 15:51:32 [verbose]: Starting high performance session
+2025-02-15 15:51:33 [verbose]: 📺 OsuScreenStack#368(depth:5) suspended PlayerLoader#338 (waiting on SoloPlayer#390)
+2025-02-15 15:51:33 [verbose]: 📺 OsuScreenStack#368(depth:6) entered SoloPlayer#390
+2025-02-15 15:51:33 [verbose]: GameplayClockContainer seeking to -1680
+2025-02-15 15:51:33 [verbose]: GameplayClockContainer started via call to StartGameplayClock
+2025-02-15 15:51:56 [verbose]: Received beatmap updates 1 updates with last id 8861865
+2025-02-15 15:52:11 [verbose]: Received beatmap updates 1 updates with last id 8861866
+2025-02-15 15:52:41 [verbose]: Received beatmap updates 1 updates with last id 8861867
+2025-02-15 15:52:58 [verbose]: GameplayClockContainer stopped via call to StopGameplayClock
+2025-02-15 15:53:01 [verbose]: Received beatmap updates 1 updates with last id 8861868
+2025-02-15 15:53:06 [verbose]: Received beatmap updates 1 updates with last id 8861869
+2025-02-15 15:53:21 [verbose]: Received beatmap updates 1 updates with last id 8861870
+2025-02-15 15:54:22 [verbose]: Received beatmap updates 1 updates with last id 8861871
+2025-02-15 15:56:53 [verbose]: Received beatmap updates 1 updates with last id 8861872
+2025-02-15 15:57:58 [verbose]: Received beatmap updates 1 updates with last id 8861873
+2025-02-15 15:58:48 [verbose]: Received beatmap updates 1 updates with last id 8861874
+2025-02-15 15:59:53 [verbose]: Received beatmap updates 1 updates with last id 8861875
+2025-02-15 16:00:28 [verbose]: Received beatmap updates 1 updates with last id 8861876
+2025-02-15 16:00:34 [verbose]: Received beatmap updates 1 updates with last id 8861877
+2025-02-15 16:00:39 [verbose]: Received beatmap updates 2 updates with last id 8861879
+2025-02-15 16:00:49 [verbose]: Received beatmap updates 1 updates with last id 8861880
+2025-02-15 16:01:09 [verbose]: Received beatmap updates 1 updates with last id 8861881
+2025-02-15 16:01:39 [verbose]: Received beatmap updates 2 updates with last id 8861883
+2025-02-15 16:01:44 [verbose]: Received beatmap updates 1 updates with last id 8861884
+2025-02-15 16:02:14 [verbose]: Received beatmap updates 1 updates with last id 8861885
+2025-02-15 16:03:20 [verbose]: Received beatmap updates 1 updates with last id 8861886
+2025-02-15 16:03:25 [verbose]: Received beatmap updates 1 updates with last id 8861887
+2025-02-15 16:03:55 [verbose]: Received beatmap updates 1 updates with last id 8861888
+2025-02-15 16:04:20 [verbose]: Received beatmap updates 1 updates with last id 8861889
+2025-02-15 16:04:45 [verbose]: Received beatmap updates 1 updates with last id 8861890
+2025-02-15 16:05:40 [verbose]: Received beatmap updates 1 updates with last id 8861891
+2025-02-15 16:06:16 [verbose]: Received beatmap updates 2 updates with last id 8861893
+2025-02-15 16:06:56 [verbose]: Received beatmap updates 2 updates with last id 8861895
+2025-02-15 16:07:01 [verbose]: Received beatmap updates 1 updates with last id 8861896
+2025-02-15 16:07:07 [verbose]: Received beatmap updates 1 updates with last id 8861897
+2025-02-15 16:07:27 [verbose]: Received beatmap updates 1 updates with last id 8861898
+2025-02-15 16:07:52 [verbose]: Received beatmap updates 1 updates with last id 8861899
+2025-02-15 16:08:02 [verbose]: Received beatmap updates 1 updates with last id 8861900
+2025-02-15 16:08:12 [verbose]: Received beatmap updates 1 updates with last id 8861901
+2025-02-15 16:08:22 [verbose]: Received beatmap updates 2 updates with last id 8861903
+2025-02-15 16:09:07 [verbose]: Received beatmap updates 1 updates with last id 8861904
+2025-02-15 16:09:12 [verbose]: Received beatmap updates 1 updates with last id 8861905
+2025-02-15 16:09:32 [verbose]: Received beatmap updates 1 updates with last id 8861906
+2025-02-15 16:09:37 [verbose]: Received beatmap updates 1 updates with last id 8861907
+2025-02-15 16:11:03 [verbose]: Received beatmap updates 1 updates with last id 8861908
+2025-02-15 16:11:18 [verbose]: Received beatmap updates 1 updates with last id 8861909
+2025-02-15 16:11:34 [verbose]: Received beatmap updates 2 updates with last id 8861911
+2025-02-15 16:11:44 [verbose]: Received beatmap updates 1 updates with last id 8861912
+2025-02-15 16:13:44 [verbose]: Received beatmap updates 1 updates with last id 8861913
+2025-02-15 16:14:25 [verbose]: Received beatmap updates 1 updates with last id 8861914
+2025-02-15 16:14:55 [verbose]: Received beatmap updates 1 updates with last id 8861915
+2025-02-15 16:15:25 [verbose]: Received beatmap updates 1 updates with last id 8861916
+2025-02-15 16:15:35 [verbose]: Received beatmap updates 1 updates with last id 8861917
+2025-02-15 16:16:06 [verbose]: Received beatmap updates 1 updates with last id 8861918
+2025-02-15 16:17:01 [verbose]: Received beatmap updates 1 updates with last id 8861919
+2025-02-15 16:17:26 [verbose]: Received beatmap updates 1 updates with last id 8861920
+2025-02-15 16:18:17 [verbose]: Received beatmap updates 1 updates with last id 8861921
+2025-02-15 16:18:22 [verbose]: Received beatmap updates 1 updates with last id 8861922
+2025-02-15 16:18:52 [verbose]: Received beatmap updates 1 updates with last id 8861923
+2025-02-15 16:19:37 [verbose]: Received beatmap updates 1 updates with last id 8861924
+2025-02-15 16:20:38 [verbose]: Received beatmap updates 2 updates with last id 8861926
+2025-02-15 16:21:33 [verbose]: Received beatmap updates 1 updates with last id 8861927
+2025-02-15 16:22:03 [verbose]: Received beatmap updates 2 updates with last id 8861929
+2025-02-15 16:23:24 [verbose]: Received beatmap updates 1 updates with last id 8861930
+2025-02-15 16:23:34 [verbose]: Received beatmap updates 1 updates with last id 8861931
+2025-02-15 16:24:19 [verbose]: Received beatmap updates 1 updates with last id 8861932
+2025-02-15 16:25:20 [verbose]: Received beatmap updates 1 updates with last id 8861933
+2025-02-15 16:25:30 [verbose]: Received beatmap updates 1 updates with last id 8861934
+2025-02-15 16:26:00 [verbose]: Received beatmap updates 1 updates with last id 8861935
+2025-02-15 16:26:15 [verbose]: Received beatmap updates 1 updates with last id 8861936
+2025-02-15 16:26:35 [verbose]: Received beatmap updates 1 updates with last id 8861937
+2025-02-15 16:26:45 [verbose]: Received beatmap updates 1 updates with last id 8861938
+2025-02-15 16:27:41 [verbose]: Received beatmap updates 2 updates with last id 8861940
+2025-02-15 16:27:46 [verbose]: Received beatmap updates 1 updates with last id 8861941
+2025-02-15 16:29:01 [verbose]: Received beatmap updates 1 updates with last id 8861942
+2025-02-15 16:29:21 [verbose]: Received beatmap updates 1 updates with last id 8861943
+2025-02-15 16:30:12 [verbose]: Received beatmap updates 1 updates with last id 8861944
+2025-02-15 16:30:22 [verbose]: Received beatmap updates 1 updates with last id 8861945
+2025-02-15 16:30:37 [verbose]: Received beatmap updates 1 updates with last id 8861946
+2025-02-15 16:30:42 [verbose]: Received beatmap updates 1 updates with last id 8861947
+2025-02-15 16:31:47 [verbose]: Received beatmap updates 1 updates with last id 8861948
+2025-02-15 16:32:08 [verbose]: Received beatmap updates 1 updates with last id 8861949
+2025-02-15 16:32:23 [verbose]: Received beatmap updates 1 updates with last id 8861950
+2025-02-15 16:33:48 [verbose]: Received beatmap updates 1 updates with last id 8861951
+2025-02-15 16:33:53 [verbose]: Received beatmap updates 1 updates with last id 8861952
+2025-02-15 16:34:13 [verbose]: Received beatmap updates 1 updates with last id 8861953
+2025-02-15 16:34:25 [verbose]: Beginning score submission (token:512432983)...
+2025-02-15 16:34:25 [verbose]: 📺 OsuScreenStack#368(depth:5) exit from SoloPlayer#390
+2025-02-15 16:34:25 [verbose]: 📺 OsuScreenStack#368(depth:5) resume to PlayerLoader#338
+2025-02-15 16:34:25 [verbose]: Ending high performance session
+2025-02-15 16:34:25 [verbose]: 📺 OsuScreenStack#368(depth:4) exit from PlayerLoader#338
+2025-02-15 16:34:25 [verbose]: 📺 OsuScreenStack#368(depth:4) resume to PlaySongSelect#141
+2025-02-15 16:34:25 [verbose]: 📺 BackgroundScreenStack#830(depth:1) exit from BackgroundScreenBeatmap#659
+2025-02-15 16:34:25 [verbose]: 📺 BackgroundScreenStack#830(depth:1) resume to BackgroundScreenDefault#320
+2025-02-15 16:34:25 [verbose]: 📺 OsuScreenStack#368(depth:3) exit from PlaySongSelect#141
+2025-02-15 16:34:25 [verbose]: 📺 OsuScreenStack#368(depth:3) resume to MainMenu#197
+2025-02-15 16:34:25 [verbose]: MusicController starting playback to EnsurePlayingSomething
+2025-02-15 16:34:25 [verbose]: 🌅 Global background change queued
+2025-02-15 16:34:25 [verbose]: 🌅 Global background change queued
+2025-02-15 16:34:25 [verbose]: Focus contention triggered by DialogOverlay.
+2025-02-15 16:34:25 [verbose]: ButtonSystem's state changed from EnteringMode to TopLevel
+2025-02-15 16:34:26 [verbose]: 🌅 Global background loading
+2025-02-15 16:34:26 [verbose]: Score submission completed! (token:512432983 id:4360536400)
+2025-02-15 16:34:26 [verbose]: ButtonSystem's state changed from TopLevel to Exit
+2025-02-15 16:34:26 [verbose]: 📺 OsuScreenStack#368(depth:2) exit from MainMenu#197
+2025-02-15 16:34:26 [verbose]: 📺 OsuScreenStack#368(depth:2) resume to IntroTriangles#468
+2025-02-15 16:34:29 [verbose]: 📺 BackgroundScreenStack#830(depth:0) exit from BackgroundScreenDefault#320
+2025-02-15 16:34:29 [verbose]: 📺 BackgroundScreenStack#830(depth:0) resume to [empty]
+2025-02-15 16:34:29 [verbose]: 📺 OsuScreenStack#368(depth:1) exit from IntroTriangles#468
+2025-02-15 16:34:29 [verbose]: 📺 OsuScreenStack#368(depth:1) resume to Loader#501
+2025-02-15 16:34:29 [verbose]: 📺 OsuScreenStack#368(depth:0) exit from Loader#501
+2025-02-15 16:34:29 [verbose]: 📺 OsuScreenStack#368(depth:0) resume to [empty]
+2025-02-15 16:34:29 [verbose]: Host execution state changed to Stopping
+2025-02-15 16:34:30 [verbose]: Host execution state changed to Stopped

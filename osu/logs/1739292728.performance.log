@@ -1,0 +1,11 @@
+----------------------------------------------------------
+performance Log (LogLevel: Verbose)
+Running osu 2025.118.3.0 on .NET 8.0.12
+Environment: Linux (Unix 6.13.2.1), 8 cores 
+----------------------------------------------------------
+2025-02-11 16:52:12 [verbose]: TextureAtlas initialised (1024x1024)
+2025-02-11 16:52:12 [verbose]: TextureAtlas initialised (1024x1024)
+2025-02-11 16:52:14 [verbose]: Texture requested (1024x1024) which exceeds TextureStore's atlas size (1024x1024) - bypassing atlasing. Consider using LargeTextureStore.
+2025-02-11 16:52:14 [verbose]: TextureAtlas initialised (1024x1024)
+2025-02-11 16:52:15 [verbose]: TextureAtlas size exceeded 1 time(s); generating new texture (1024x1024)
+2025-02-11 16:52:21 [verbose]: TextureAtlas size exceeded 2 time(s); generating new texture (1024x1024)

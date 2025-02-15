@@ -1,0 +1,20 @@
+----------------------------------------------------------
+database Log (LogLevel: Verbose)
+Running osu 2025.118.3.0 on .NET 8.0.12
+Environment: Linux (Unix 6.13.2.1), 8 cores 
+----------------------------------------------------------
+2025-02-15 15:42:05 [verbose]: [LocalCachedBeatmapMetadataSource] Fetching local cache because it does not exist.
+2025-02-15 15:42:07 [verbose]: [LocalCachedBeatmapMetadataSource] Fetching local cache because it does not exist.
+2025-02-15 15:42:27 [verbose]: [LocalCachedBeatmapMetadataSource] Online cache extraction failed: System.IO.IOException: The process cannot access the file '/home/paul/.local/share/osu/online.db' because it is being used by another process.
+2025-02-15 15:42:27 [verbose]: at Microsoft.Win32.SafeHandles.SafeFileHandle.Init(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Int64& fileLength, UnixFileMode& filePermissions)
+2025-02-15 15:42:27 [verbose]: at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, UnixFileMode openPermissions, Int64& fileLength, UnixFileMode& filePermissions, Boolean failForSymlink, Boolean& wasSymlink, Func`4 createOpenException)
+2025-02-15 15:42:27 [verbose]: at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+2025-02-15 15:42:27 [verbose]: at System.IO.File.OpenWrite(String path)
+2025-02-15 15:42:27 [verbose]: at osu.Game.Beatmaps.LocalCachedBeatmapMetadataSource.<>c__DisplayClass9_0.<prepareLocalCache>b__1()
+2025-02-15 15:42:29 [verbose]: [LocalCachedBeatmapMetadataSource] Local cache fetch completed successfully.
+2025-02-15 15:45:04 [verbose]: [?????] Beginning import from replay.osr...
+2025-02-15 15:45:07 [verbose]: [0bb7c] Import successfully completed!
+2025-02-15 15:47:39 [verbose]: [?????] Beginning import from replay.osr...
+2025-02-15 15:47:39 [verbose]: [6dccd] Import successfully completed!
+2025-02-15 15:51:23 [verbose]: [?????] Beginning import from replay.osr...
+2025-02-15 15:51:23 [verbose]: [cf747] Import successfully completed!

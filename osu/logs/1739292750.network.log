@@ -1,0 +1,189 @@
+----------------------------------------------------------
+network Log (LogLevel: Verbose)
+Running osu 2025.118.3.0 on .NET 8.0.12
+Environment: Linux (Unix 6.13.2.1), 8 cores 
+----------------------------------------------------------
+2025-02-11 16:52:33 [verbose]: Request to https://auth.ppy.sh/updates/get successfully completed!
+2025-02-11 16:52:34 [verbose]: API endpoint root: https://osu.ppy.sh
+2025-02-11 16:52:34 [verbose]: API request version: 20250118
+2025-02-11 16:52:37 [verbose]: Performing request osu.Game.Online.API.Requests.GetSeasonalBackgroundsRequest
+2025-02-11 16:52:38 [verbose]: Failing request osu.Game.Online.API.Requests.GetUpdatesRequest (System.Net.WebException: User not logged in)
+2025-02-11 16:52:38 [verbose]: Request to https://osu.ppy.sh/api/v2/seasonal-backgrounds successfully completed!
+2025-02-11 16:52:38 [verbose]: GetSeasonalBackgroundsRequest finished with response size of 9,720 bytes
+2025-02-11 16:52:39 [verbose]: Request to https://assets.ppy.sh/client-resources/online.db.bz2?20250211 successfully completed!
+2025-02-11 16:52:41 [verbose]: Request to https://assets.ppy.sh/menu-content.json successfully completed!
+2025-02-11 16:52:41 [verbose]: Request to https://assets.ppy.sh/main-menu/community-choice-2024@2x.png successfully completed!
+2025-02-11 16:52:42 [verbose]: Request to https://assets.ppy.sh/main-menu/locus-registrations-open@2x.png successfully completed!
+2025-02-11 16:52:42 [verbose]: Request to https://assets.ppy.sh/client-resources/online.db.bz2?20250211 successfully completed!
+2025-02-11 16:53:00 [verbose]: Request to https://a.ppy.sh/34699086 successfully completed!
+2025-02-11 16:53:01 [verbose]: Request to https://a.ppy.sh/34699086 successfully completed!
+2025-02-11 16:53:33 [verbose]: Request to https://auth.ppy.sh/updates/get successfully completed!
+2025-02-11 16:54:33 [verbose]: Request to https://auth.ppy.sh/updates/get successfully completed!
+2025-02-11 16:55:04 [verbose]: Failing request osu.Game.Online.API.Requests.GetScoresRequest (System.Net.WebException: User not logged in)
+2025-02-11 16:55:34 [verbose]: Request to https://auth.ppy.sh/updates/get successfully completed!
+2025-02-11 16:55:59 [verbose]: Request to https://osu.ppy.sh/oauth/token failed with System.Net.WebException: BadRequest.
+2025-02-11 16:55:59 [verbose]: Response was: {"error":"invalid_grant","error_description":"The provided authorization grant (e.g., authorization code, resource owner credentials) or refresh token is invalid, expired, revoked, does not match the redirection URI used in the authorization request, or was issued to another client.","hint":"Incorrect sign in","message":"The provided authorization grant (e.g., authorization code, resource owner credentials) or refresh token is invalid, expired, revoked, does not match the redirection URI used in the authorization request, or was issued to another client."}
+2025-02-11 16:55:59 [verbose]: Login failed for username PaulSteve (Incorrect sign in)!
+2025-02-11 16:56:05 [verbose]: Request to https://osu.ppy.sh/oauth/token successfully completed!
+2025-02-11 16:56:05 [verbose]: Performing request osu.Game.Online.API.Requests.GetMeRequest
+2025-02-11 16:56:07 [verbose]: Request to https://osu.ppy.sh/api/v2/me/ successfully completed!
+2025-02-11 16:56:07 [verbose]: GetMeRequest finished with response size of 7,988 bytes
+2025-02-11 16:56:07 [verbose]: WebSocketNotificationsClientConnector connecting...
+2025-02-11 16:56:07 [verbose]: OnlineMultiplayerClient connecting...
+2025-02-11 16:56:07 [verbose]: SpectatorClient connecting...
+2025-02-11 16:56:07 [verbose]: OnlineMetadataClient connecting...
+2025-02-11 16:56:07 [verbose]: Performing request osu.Game.Online.API.Requests.GetNotificationsRequest
+2025-02-11 16:56:07 [verbose]: Request to https://osu.ppy.sh/api/v2/notifications successfully completed!
+2025-02-11 16:56:07 [verbose]: GetNotificationsRequest finished with response size of 1,646 bytes
+2025-02-11 16:56:08 [verbose]: Request to https://a.ppy.sh/34699086?1698530547.jpeg successfully completed!
+2025-02-11 16:56:08 [verbose]: WebSocketNotificationsClientConnector connected!
+2025-02-11 16:56:08 [verbose]: Now listening to websocket chat messages.
+2025-02-11 16:56:11 [verbose]: OnlineMetadataClient connected!
+2025-02-11 16:56:11 [verbose]: SpectatorClient connected!
+2025-02-11 16:56:11 [verbose]: OnlineMetadataClient stopped watching user presence
+2025-02-11 16:56:12 [verbose]: OnlineMultiplayerClient connected!
+2025-02-11 16:56:33 [verbose]: Performing request osu.Game.Online.API.Requests.GetMeRequest
+2025-02-11 16:56:33 [verbose]: OnlineMetadataClient connecting...
+2025-02-11 16:56:33 [verbose]: OnlineMultiplayerClient connecting...
+2025-02-11 16:56:33 [verbose]: SpectatorClient connecting...
+2025-02-11 16:56:33 [verbose]: WebSocketNotificationsClientConnector connecting...
+2025-02-11 16:56:33 [verbose]: Performing request osu.Game.Online.API.Requests.GetNotificationsRequest
+2025-02-11 16:56:33 [verbose]: Request to https://auth.ppy.sh/updates/get successfully completed!
+2025-02-11 16:56:33 [verbose]: Request to https://osu.ppy.sh/api/v2/me/ successfully completed!
+2025-02-11 16:56:33 [verbose]: GetMeRequest finished with response size of 7,987 bytes
+2025-02-11 16:56:33 [verbose]: Performing request osu.Game.Online.API.Requests.GetFriendsRequest
+2025-02-11 16:56:33 [verbose]: Request to https://assets.ppy.sh/user-cover-presets/6/a7d51a05cb3c08a43531dfa8dc99c2fc7fe0d8cfce2756c340f11b3683b5d3bf.jpeg successfully completed!
+2025-02-11 16:56:33 [verbose]: Request to https://osu.ppy.sh/api/v2/friends successfully completed!
+2025-02-11 16:56:33 [verbose]: GetFriendsRequest finished with response size of 2 bytes
+2025-02-11 16:56:33 [verbose]: Performing request osu.Game.Online.API.Requests.GetUserRequest
+2025-02-11 16:56:33 [verbose]: Request to https://osu.ppy.sh/api/v2/notifications successfully completed!
+2025-02-11 16:56:33 [verbose]: GetNotificationsRequest finished with response size of 1,646 bytes
+2025-02-11 16:56:34 [verbose]: Request to https://osu.ppy.sh/api/v2/users/34699086/osu?key=id successfully completed!
+2025-02-11 16:56:34 [verbose]: GetUserRequest finished with response size of 6,294 bytes
+2025-02-11 16:56:34 [verbose]: Performing request osu.Game.Online.API.Requests.GetUserRequest
+2025-02-11 16:56:34 [verbose]: WebSocketNotificationsClientConnector connected!
+2025-02-11 16:56:34 [verbose]: Now listening to websocket chat messages.
+2025-02-11 16:56:34 [verbose]: Request to https://osu.ppy.sh/api/v2/users/34699086/taiko?key=id successfully completed!
+2025-02-11 16:56:34 [verbose]: GetUserRequest finished with response size of 6,196 bytes
+2025-02-11 16:56:34 [verbose]: Performing request osu.Game.Online.API.Requests.GetUserRequest
+2025-02-11 16:56:34 [verbose]: Request to https://auth.ppy.sh/updates/get successfully completed!
+2025-02-11 16:56:35 [verbose]: Request to https://osu.ppy.sh/api/v2/users/34699086/fruits?key=id successfully completed!
+2025-02-11 16:56:35 [verbose]: GetUserRequest finished with response size of 6,201 bytes
+2025-02-11 16:56:35 [verbose]: Performing request osu.Game.Online.API.Requests.GetUserRequest
+2025-02-11 16:56:35 [verbose]: Request to https://osu.ppy.sh/api/v2/users/34699086/mania?key=id successfully completed!
+2025-02-11 16:56:35 [verbose]: GetUserRequest finished with response size of 5,011 bytes
+2025-02-11 16:56:35 [verbose]: Performing request osu.Game.Online.API.Requests.GetUpdatesRequest
+2025-02-11 16:56:35 [verbose]: OnlineMetadataClient connected!
+2025-02-11 16:56:35 [verbose]: OnlineMultiplayerClient connected!
+2025-02-11 16:56:36 [verbose]: Request to https://osu.ppy.sh/api/v2/chat/updates successfully completed!
+2025-02-11 16:56:36 [verbose]: GetUpdatesRequest finished with response size of 1,085 bytes
+2025-02-11 16:56:36 [verbose]: Performing request osu.Game.Online.Rooms.GetRoomRequest
+2025-02-11 16:56:36 [verbose]: OnlineMetadataClient stopped watching user presence
+2025-02-11 16:56:36 [verbose]: Request to https://osu.ppy.sh/api/v2/rooms/1152448 successfully completed!
+2025-02-11 16:56:36 [verbose]: GetRoomRequest finished with response size of 19,533 bytes
+2025-02-11 16:56:36 [verbose]: Performing request osu.Game.Online.API.Requests.ChatAckRequest
+2025-02-11 16:56:36 [verbose]: SpectatorClient connected!
+2025-02-11 16:56:37 [verbose]: Request to https://osu.ppy.sh/api/v2/chat/ack successfully completed!
+2025-02-11 16:56:37 [verbose]: ChatAckRequest finished with response size of 15 bytes
+2025-02-11 16:56:37 [verbose]: Performing request osu.Game.Online.API.Requests.GetFriendsRequest
+2025-02-11 16:56:37 [verbose]: Request to https://osu.ppy.sh/api/v2/friends successfully completed!
+2025-02-11 16:56:37 [verbose]: GetFriendsRequest finished with response size of 2 bytes
+2025-02-11 16:56:37 [verbose]: Performing request osu.Game.Online.API.Requests.GetUpdatesRequest
+2025-02-11 16:56:37 [verbose]: Request to https://osu.ppy.sh/api/v2/chat/updates successfully completed!
+2025-02-11 16:56:37 [verbose]: GetUpdatesRequest finished with response size of 1,085 bytes
+2025-02-11 16:56:37 [verbose]: Performing request osu.Game.Online.Rooms.GetRoomRequest
+2025-02-11 16:56:38 [verbose]: Request to https://osu.ppy.sh/api/v2/rooms/1152448 successfully completed!
+2025-02-11 16:56:38 [verbose]: GetRoomRequest finished with response size of 19,533 bytes
+2025-02-11 16:56:38 [verbose]: Performing request osu.Game.Online.API.Requests.GetMessagesRequest
+2025-02-11 16:56:38 [verbose]: Request to https://osu.ppy.sh/api/v2/chat/channels/5/messages successfully completed!
+2025-02-11 16:56:38 [verbose]: GetMessagesRequest finished with response size of 25,078 bytes
+2025-02-11 16:56:38 [verbose]: Performing request osu.Game.Online.API.Requests.ListChannelsRequest
+2025-02-11 16:56:38 [verbose]: Request to https://osu.ppy.sh/api/v2/chat/channels successfully completed!
+2025-02-11 16:56:38 [verbose]: ListChannelsRequest finished with response size of 7,547 bytes
+2025-02-11 16:56:38 [verbose]: Performing request osu.Game.Online.API.Requests.ListChannelsRequest
+2025-02-11 16:56:39 [verbose]: Request to https://osu.ppy.sh/api/v2/chat/channels successfully completed!
+2025-02-11 16:56:39 [verbose]: ListChannelsRequest finished with response size of 7,547 bytes
+2025-02-11 16:56:42 [verbose]: Performing request osu.Game.Online.API.Requests.GetChannelRequest
+2025-02-11 16:56:43 [verbose]: Request to https://osu.ppy.sh/api/v2/chat/channels/5 successfully completed!
+2025-02-11 16:56:43 [verbose]: GetChannelRequest finished with response size of 383 bytes
+2025-02-11 16:56:43 [verbose]: Performing request osu.Game.Online.API.Requests.GetChannelRequest
+2025-02-11 16:56:43 [verbose]: Request to https://osu.ppy.sh/api/v2/chat/channels/5 successfully completed!
+2025-02-11 16:56:43 [verbose]: GetChannelRequest finished with response size of 383 bytes
+2025-02-11 16:57:19 [verbose]: Request to https://a.ppy.sh/34699086 successfully completed!
+2025-02-11 16:57:21 [verbose]: Performing request osu.Game.Online.Solo.CreateSoloScoreRequest
+2025-02-11 16:57:22 [verbose]: Request to https://osu.ppy.sh/api/v2/beatmaps/956355/solo/scores successfully completed!
+2025-02-11 16:57:22 [verbose]: CreateSoloScoreRequest finished with response size of 115 bytes
+2025-02-11 16:57:35 [verbose]: Request to https://auth.ppy.sh/updates/get successfully completed!
+2025-02-11 16:57:37 [verbose]: Performing request osu.Game.Online.API.Requests.ChatAckRequest
+2025-02-11 16:57:37 [verbose]: Request to https://osu.ppy.sh/api/v2/chat/ack successfully completed!
+2025-02-11 16:57:37 [verbose]: ChatAckRequest finished with response size of 15 bytes
+2025-02-11 16:57:46 [verbose]: Performing request osu.Game.Online.Solo.SubmitSoloScoreRequest
+2025-02-11 16:57:46 [verbose]: Request to https://osu.ppy.sh/api/v2/beatmaps/956355/solo/scores/507042658 successfully completed!
+2025-02-11 16:57:46 [verbose]: SubmitSoloScoreRequest finished with response size of 870 bytes
+2025-02-11 16:57:48 [verbose]: Request to https://a.ppy.sh/34699086 successfully completed!
+2025-02-11 16:57:51 [verbose]: Performing request osu.Game.Online.Solo.CreateSoloScoreRequest
+2025-02-11 16:57:52 [verbose]: Request to https://osu.ppy.sh/api/v2/beatmaps/1035899/solo/scores successfully completed!
+2025-02-11 16:57:52 [verbose]: CreateSoloScoreRequest finished with response size of 116 bytes
+2025-02-11 16:58:18 [verbose]: Performing request osu.Game.Online.Solo.SubmitSoloScoreRequest
+2025-02-11 16:58:18 [verbose]: Request to https://osu.ppy.sh/api/v2/beatmaps/1035899/solo/scores/507043247 successfully completed!
+2025-02-11 16:58:18 [verbose]: SubmitSoloScoreRequest finished with response size of 893 bytes
+2025-02-11 16:58:20 [verbose]: Request to https://assets.ppy.sh/menu-content.json successfully completed!
+2025-02-11 16:58:21 [verbose]: Request to https://assets.ppy.sh/beatmaps/190366/covers/cover@2x.jpg?1648635944 successfully completed!
+2025-02-11 16:58:25 [verbose]: Performing request osu.Game.Online.Solo.CreateSoloScoreRequest
+2025-02-11 16:58:25 [verbose]: Request to https://osu.ppy.sh/api/v2/beatmaps/4805649/solo/scores successfully completed!
+2025-02-11 16:58:25 [verbose]: CreateSoloScoreRequest finished with response size of 116 bytes
+2025-02-11 16:58:27 [verbose]: Request to https://a.ppy.sh/34699086 successfully completed!
+2025-02-11 16:58:35 [verbose]: Request to https://auth.ppy.sh/updates/get successfully completed!
+2025-02-11 16:58:37 [verbose]: Performing request osu.Game.Online.API.Requests.ChatAckRequest
+2025-02-11 16:58:37 [verbose]: Request to https://osu.ppy.sh/api/v2/chat/ack successfully completed!
+2025-02-11 16:58:37 [verbose]: ChatAckRequest finished with response size of 15 bytes
+2025-02-11 16:59:35 [verbose]: Request to https://auth.ppy.sh/updates/get successfully completed!
+2025-02-11 16:59:37 [verbose]: Performing request osu.Game.Online.API.Requests.ChatAckRequest
+2025-02-11 16:59:38 [verbose]: Request to https://osu.ppy.sh/api/v2/chat/ack successfully completed!
+2025-02-11 16:59:38 [verbose]: ChatAckRequest finished with response size of 15 bytes
+2025-02-11 16:59:56 [verbose]: Performing request osu.Game.Online.Solo.SubmitSoloScoreRequest
+2025-02-11 16:59:56 [verbose]: Request to https://osu.ppy.sh/api/v2/beatmaps/4805649/solo/scores/507043882 successfully completed!
+2025-02-11 16:59:56 [verbose]: SubmitSoloScoreRequest finished with response size of 865 bytes
+2025-02-11 16:59:56 [verbose]: Performing request osu.Game.Online.API.Requests.GetUserRequest
+2025-02-11 16:59:56 [verbose]: Performing request osu.Game.Online.API.Requests.GetUserRequest
+2025-02-11 16:59:57 [verbose]: Request to https://osu.ppy.sh/api/v2/users/34699086/osu?key=id successfully completed!
+2025-02-11 16:59:57 [verbose]: GetUserRequest finished with response size of 6,294 bytes
+2025-02-11 16:59:58 [verbose]: Request to https://osu.ppy.sh/api/v2/users/34699086/?key=id successfully completed!
+2025-02-11 16:59:58 [verbose]: GetUserRequest finished with response size of 6,294 bytes
+2025-02-11 16:59:58 [verbose]: Performing request osu.Game.Online.API.Requests.GetScoresRequest
+2025-02-11 16:59:59 [verbose]: Request to https://assets.ppy.sh/user-cover-presets/6/a7d51a05cb3c08a43531dfa8dc99c2fc7fe0d8cfce2756c340f11b3683b5d3bf.jpeg successfully completed!
+2025-02-11 17:00:00 [verbose]: Failing request osu.Game.Online.API.Requests.GetScoresRequest (System.OperationCanceledException: Request cancelled)
+2025-02-11 17:00:00 [verbose]: Performing request osu.Game.Online.API.Requests.GetBeatmapSetRequest
+2025-02-11 17:00:01 [verbose]: Request to https://osu.ppy.sh/api/v2/beatmapsets/2258388 successfully completed!
+2025-02-11 17:00:01 [verbose]: GetBeatmapSetRequest finished with response size of 42,819 bytes
+2025-02-11 17:00:01 [verbose]: Request to https://a.ppy.sh/34699086 successfully completed!
+2025-02-11 17:00:04 [verbose]: Request to https://a.ppy.sh/34699086 successfully completed!
+2025-02-11 17:00:07 [verbose]: Performing request osu.Game.Online.Solo.CreateSoloScoreRequest
+2025-02-11 17:00:07 [verbose]: Request to https://osu.ppy.sh/api/v2/beatmaps/3080690/solo/scores successfully completed!
+2025-02-11 17:00:07 [verbose]: CreateSoloScoreRequest finished with response size of 116 bytes
+2025-02-11 17:00:09 [verbose]: Request to https://a.ppy.sh/34699086 successfully completed!
+2025-02-11 17:00:26 [verbose]: Performing request osu.Game.Online.API.Requests.GetChannelRequest
+2025-02-11 17:00:26 [verbose]: Request to https://osu.ppy.sh/api/v2/chat/channels/6 successfully completed!
+2025-02-11 17:00:26 [verbose]: GetChannelRequest finished with response size of 376 bytes
+2025-02-11 17:00:26 [verbose]: Performing request osu.Game.Online.API.Requests.GetChannelRequest
+2025-02-11 17:00:27 [verbose]: Request to https://osu.ppy.sh/api/v2/chat/channels/6 successfully completed!
+2025-02-11 17:00:27 [verbose]: GetChannelRequest finished with response size of 376 bytes
+2025-02-11 17:00:32 [verbose]: Performing request osu.Game.Online.Solo.SubmitSoloScoreRequest
+2025-02-11 17:00:32 [verbose]: Request to https://osu.ppy.sh/api/v2/beatmaps/3080690/solo/scores/507045954 successfully completed!
+2025-02-11 17:00:32 [verbose]: SubmitSoloScoreRequest finished with response size of 888 bytes
+2025-02-11 17:00:35 [verbose]: Request to https://a.ppy.sh/34699086 successfully completed!
+2025-02-11 17:00:36 [verbose]: Request to https://auth.ppy.sh/updates/get successfully completed!
+2025-02-11 17:00:38 [verbose]: Performing request osu.Game.Online.API.Requests.ChatAckRequest
+2025-02-11 17:00:38 [verbose]: Request to https://osu.ppy.sh/api/v2/chat/ack successfully completed!
+2025-02-11 17:00:38 [verbose]: ChatAckRequest finished with response size of 15 bytes
+2025-02-11 17:00:40 [verbose]: Request to https://a.ppy.sh/34699086 successfully completed!
+2025-02-11 17:00:40 [verbose]: Performing request osu.Game.Online.Solo.CreateSoloScoreRequest
+2025-02-11 17:00:41 [verbose]: Request to https://osu.ppy.sh/api/v2/beatmaps/2014470/solo/scores successfully completed!
+2025-02-11 17:00:41 [verbose]: CreateSoloScoreRequest finished with response size of 116 bytes
+2025-02-11 17:01:36 [verbose]: Request to https://auth.ppy.sh/updates/get successfully completed!
+2025-02-11 17:01:38 [verbose]: Performing request osu.Game.Online.API.Requests.ChatAckRequest
+2025-02-11 17:01:39 [verbose]: Request to https://osu.ppy.sh/api/v2/chat/ack successfully completed!
+2025-02-11 17:01:39 [verbose]: ChatAckRequest finished with response size of 49 bytes
+2025-02-11 17:01:52 [verbose]: Performing request osu.Game.Online.Solo.SubmitSoloScoreRequest
+2025-02-11 17:01:52 [verbose]: Request to https://osu.ppy.sh/api/v2/beatmaps/2014470/solo/scores/507046617 successfully completed!
+2025-02-11 17:01:52 [verbose]: SubmitSoloScoreRequest finished with response size of 899 bytes

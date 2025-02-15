@@ -1,0 +1,715 @@
+----------------------------------------------------------
+runtime Log (LogLevel: Verbose)
+Running osu 2025.118.3.0 on .NET 8.0.12
+Environment: Linux (Unix 6.13.2.1), 8 cores 
+----------------------------------------------------------
+2025-02-11 18:01:06 [verbose]: Starting legacy IPC provider...
+2025-02-11 18:01:07 [verbose]: 🖼️ Configuration renderer choice: OpenGL
+2025-02-11 18:01:07 [verbose]: 🖼️ Renderer fallback order: [ OpenGL, OpenGL (Experimental), Vulkan (Experimental) ]
+2025-02-11 18:01:07 [verbose]: 🖼️ Initialising "GL" renderer with "OpenGL" surface
+2025-02-11 18:01:07 [verbose]: SDL2 Initialized
+2025-02-11 18:01:07 [verbose]: SDL2 Version: 2.31.0
+2025-02-11 18:01:07 [verbose]: SDL2 Revision: SDL-2.31.0-g5d80179
+2025-02-11 18:01:07 [verbose]: Updated display mode to desktop resolution: 1920x1080@60, SDL_PIXELFORMAT_RGB888
+2025-02-11 18:01:07 [verbose]: GL Initialized
+2025-02-11 18:01:07 [verbose]: GL Version:                 3.2.0 NVIDIA 570.86.16
+2025-02-11 18:01:07 [verbose]: GL Renderer:                NVIDIA GeForce GTX 1650/PCIe/SSE2
+2025-02-11 18:01:07 [verbose]: GL Shader Language version: 1.50 NVIDIA via Cg compiler
+2025-02-11 18:01:07 [verbose]: GL Vendor:                  NVIDIA Corporation
+2025-02-11 18:01:07 [verbose]: GL Extensions:              GL_AMD_multi_draw_indirect GL_AMD_seamless_cubemap_per_texture GL_AMD_vertex_shader_viewport_index GL_AMD_vertex_shader_layer GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_bindless_texture GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage GL_ARB_conservative_depth GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_depth_texture GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_indirect GL_ARB_draw_elements_base_vertex GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_ES2_compatibility GL_ARB_ES3_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_program GL_ARB_fragment_program_shadow GL_ARB_fragment_shader GL_ARB_fragment_shader_interlock GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_geometry_shader4 GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_imaging GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_multisample GL_ARB_multitexture GL_ARB_occlusion_query GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_parameters GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_post_depth_coverage GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_locations GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shading_language_100 GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_shadow GL_ARB_sparse_buffer GL_ARB_sparse_texture GL_ARB_sparse_texture2 GL_ARB_sparse_texture_clamp GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map GL_ARB_texture_cube_map_array GL_ARB_texture_env_add GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3 GL_ARB_texture_filter_anisotropic GL_ARB_texture_filter_minmax GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_mirrored_repeat GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_transpose_matrix GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_program GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ARB_window_pos GL_ATI_draw_buffers GL_ATI_texture_float GL_ATI_texture_mirror_once GL_S3_s3tc GL_EXT_texture_env_add GL_EXT_abgr GL_EXT_bgra GL_EXT_bindable_uniform GL_EXT_blend_color GL_EXT_blend_equation_separate GL_EXT_blend_func_separate GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_compiled_vertex_array GL_EXT_Cg_shader GL_EXT_depth_bounds_test GL_EXT_direct_state_access GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_draw_range_elements GL_EXT_fog_coord GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXTX_framebuffer_mixed_formats GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_geometry_shader4 GL_EXT_gpu_program_parameters GL_EXT_gpu_shader4 GL_EXT_multi_draw_arrays GL_EXT_multiview_texture_multisample GL_EXT_multiview_timer_query GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_packed_pixels GL_EXT_pixel_buffer_object GL_EXT_point_parameters GL_EXT_polygon_offset_clamp GL_EXT_post_depth_coverage GL_EXT_provoking_vertex GL_EXT_raster_multisample GL_EXT_rescale_normal GL_EXT_secondary_color GL_EXT_separate_shader_objects GL_EXT_separate_specular_color GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shadow_funcs GL_EXT_sparse_texture2 GL_EXT_stencil_two_side GL_EXT_stencil_wrap GL_EXT_texture3D GL_EXT_texture_array GL_EXT_texture_buffer_object GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_latc GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_cube_map GL_EXT_texture_edge_clamp GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_EXT_texture_filter_anisotropic GL_EXT_texture_filter_minmax GL_EXT_texture_integer GL_EXT_texture_lod GL_EXT_texture_lod_bias GL_EXT_texture_mirror_clamp GL_EXT_texture_object GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback2 GL_EXT_vertex_array GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_EXT_x11_sync_object GL_EXT_import_sync_object GL_NV_robustness_video_memory_purge GL_IBM_rasterpos_clip GL_IBM_texture_mirrored_repeat GL_KHR_context_flush_control GL_KHR_debug GL_EXT_memory_object GL_EXT_memory_object_fd GL_NV_memory_object_sparse GL_KHR_parallel_shader_compile GL_KHR_no_error GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_EXT_semaphore GL_EXT_semaphore_fd GL_NV_timeline_semaphore GL_KHR_shader_subgroup GL_KTX_buffer_region GL_NV_alpha_to_coverage_dither_control GL_NV_bindless_multi_draw_indirect GL_NV_bindless_multi_draw_indirect_count GL_NV_bindless_texture GL_NV_blend_equation_advanced GL_NV_blend_equation_advanced_coherent GL_NVX_blend_equation_advanced_multi_draw_buffers GL_NV_blend_minmax_factor GL_NV_blend_square GL_NV_clip_space_w_scaling GL_NV_command_list GL_NV_compute_program5 GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_conservative_raster GL_NV_conservative_raster_dilate GL_NV_conservative_raster_pre_snap GL_NV_conservative_raster_pre_snap_triangles GL_NV_conservative_raster_underestimation GL_NV_copy_depth_to_color GL_NV_copy_image GL_NV_depth_buffer_float GL_NV_depth_clamp GL_NV_draw_texture GL_NV_draw_vulkan_image GL_NV_ES1_1_compatibility GL_NV_ES3_1_compatibility GL_NV_explicit_multisample GL_NV_feature_query GL_NV_fence GL_NV_fill_rectangle GL_NV_float_buffer GL_NV_fog_distance GL_NV_fragment_coverage_to_color GL_NV_fragment_program GL_NV_fragment_program_option GL_NV_fragment_program2 GL_NV_fragment_shader_barycentric GL_NV_fragment_shader_interlock GL_NV_framebuffer_mixed_samples GL_NV_framebuffer_multisample_coverage GL_NV_geometry_shader4 GL_NV_geometry_shader_passthrough GL_NV_gpu_program4 GL_NV_internalformat_sample_query GL_NV_gpu_program4_1 GL_NV_gpu_program5 GL_NV_gpu_program5_mem_extended GL_NV_gpu_program_fp64 GL_NV_gpu_program_multiview GL_NV_gpu_shader5 GL_NV_half_float GL_NV_light_max_exponent GL_NV_memory_attachment GL_NV_mesh_shader GL_NV_multisample_coverage GL_NV_multisample_filter_hint GL_NV_occlusion_query GL_NV_packed_depth_stencil GL_NV_parameter_buffer_object GL_NV_parameter_buffer_object2 GL_NV_path_rendering GL_NV_path_rendering_shared_edge GL_NV_pixel_data_range GL_NV_point_sprite GL_NV_primitive_restart GL_NV_query_resource GL_NV_query_resource_tag GL_NV_register_combiners GL_NV_register_combiners2 GL_NV_representative_fragment_test GL_NV_sample_locations GL_NV_sample_mask_override_coverage GL_NV_scissor_exclusive GL_NV_shader_atomic_counters GL_NV_shader_atomic_float GL_NV_shader_atomic_float64 GL_NV_shader_atomic_fp16_vector GL_NV_shader_atomic_int64 GL_NV_shader_buffer_load GL_NV_shader_storage_buffer_object GL_NV_shader_subgroup_partitioned GL_NV_shader_texture_footprint GL_NV_shading_rate_image GL_NV_stereo_view_rendering GL_NV_texgen_reflection GL_NV_texture_barrier GL_NV_texture_compression_vtc GL_NV_texture_env_combine4 GL_NV_texture_multisample GL_NV_texture_rectangle GL_NV_texture_rectangle_compressed GL_NV_texture_shader GL_NV_texture_shader2 GL_NV_texture_shader3 GL_NV_transform_feedback GL_NV_transform_feedback2 GL_NV_uniform_buffer_unified_memory GL_NV_uniform_buffer_std430_layout GL_NV_vdpau_interop GL_NV_vdpau_interop2 GL_NV_vertex_array_range GL_NV_vertex_array_range2 GL_NV_vertex_attrib_integer_64bit GL_NV_vertex_buffer_unified_memory GL_NV_vertex_program GL_NV_vertex_program1_1 GL_NV_vertex_program2 GL_NV_vertex_program2_option GL_NV_vertex_program3 GL_NV_viewport_array2 GL_NV_viewport_swizzle GL_NVX_conditional_render GL_NV_gpu_multicast GL_NVX_progress_fence GL_NVX_gpu_memory_info GL_NVX_nvenc_interop GL_NV_shader_thread_group GL_NV_shader_thread_shuffle GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_OVR_multiview GL_OVR_multiview2 GL_SGIS_generate_mipmap GL_SGIS_texture_lod GL_SGIX_depth_texture GL_SGIX_shadow GL_SUN_slice_accum
+2025-02-11 18:01:07 [verbose]: UseStructuredBuffers: True
+2025-02-11 18:01:07 [verbose]: 🖼️ Renderer initialised!
+2025-02-11 18:01:07 [verbose]: Host execution state changed to Running
+2025-02-11 18:01:07 [verbose]: Execution mode changed to MultiThreaded
+2025-02-11 18:01:08 [verbose]: Beginning realm file store cleanup
+2025-02-11 18:01:08 [verbose]: Finished realm file store cleanup (1 of 1 deleted)
+2025-02-11 18:01:08 [verbose]: 🔈 BASS initialised
+2025-02-11 18:01:08 [verbose]: BASS version:           2.4.17.0
+2025-02-11 18:01:08 [verbose]: BASS FX version:        2.4.12.6
+2025-02-11 18:01:08 [verbose]: BASS MIX version:       2.4.12.0
+2025-02-11 18:01:08 [verbose]: Device:                 Default
+2025-02-11 18:01:08 [verbose]: Driver:                 default
+2025-02-11 18:01:08 [verbose]: Update period:          5 ms
+2025-02-11 18:01:08 [verbose]: Device buffer length:   10 ms
+2025-02-11 18:01:08 [verbose]: Playback buffer length: 100 ms
+2025-02-11 18:01:08 [verbose]: 🔈 BASS initialised
+2025-02-11 18:01:08 [verbose]: BASS version:           2.4.17.0
+2025-02-11 18:01:08 [verbose]: BASS FX version:        2.4.12.6
+2025-02-11 18:01:08 [verbose]: BASS MIX version:       2.4.12.0
+2025-02-11 18:01:08 [verbose]: Device:                 PipeWire Sound Server
+2025-02-11 18:01:08 [verbose]: Driver:                 pipewire
+2025-02-11 18:01:08 [verbose]: Update period:          5 ms
+2025-02-11 18:01:08 [verbose]: Device buffer length:   10 ms
+2025-02-11 18:01:08 [verbose]: Playback buffer length: 100 ms
+2025-02-11 18:01:08 [verbose]: Opened realm "/home/paul/.local/share/osu/client.realm" at version 46
+2025-02-11 18:01:08 [verbose]: Updated display mode to desktop resolution: 1920x1080@60, SDL_PIXELFORMAT_RGB888
+2025-02-11 18:01:09 [verbose]: Loading FPSCounter...
+2025-02-11 18:01:09 [verbose]: Loaded FPSCounter!
+2025-02-11 18:01:09 [verbose]: Loading OsuLogo...
+2025-02-11 18:01:09 [verbose]: Texture -'s upload queue is large (100)
+2025-02-11 18:01:09 [verbose]: Texture -'s upload queue is large (200)
+2025-02-11 18:01:09 [verbose]: Loaded OsuLogo!
+2025-02-11 18:01:09 [verbose]: Loading LocalUserStatisticsProvider...
+2025-02-11 18:01:09 [verbose]: 📺 OsuScreenStack#522(depth:1) loading Loader#307
+2025-02-11 18:01:09 [verbose]: Loaded LocalUserStatisticsProvider!
+2025-02-11 18:01:09 [verbose]: Loading DifficultyRecommender...
+2025-02-11 18:01:09 [verbose]: 📺 OsuScreenStack#522(depth:1) entered Loader#307
+2025-02-11 18:01:09 [verbose]: Loaded DifficultyRecommender!
+2025-02-11 18:01:09 [verbose]: Loading UserStatisticsWatcher...
+2025-02-11 18:01:09 [verbose]: Loaded UserStatisticsWatcher!
+2025-02-11 18:01:09 [verbose]: Loading Toolbar...
+2025-02-11 18:01:09 [verbose]: Texture 3's upload queue is large (100)
+2025-02-11 18:01:09 [verbose]: 📺 OsuScreenStack#522(depth:1) suspended Loader#307 (waiting on IntroTriangles#563)
+2025-02-11 18:01:09 [verbose]: 📺 OsuScreenStack#522(depth:2) entered IntroTriangles#563
+2025-02-11 18:01:09 [verbose]: 📺 BackgroundScreenStack#255(depth:1) loading BackgroundScreenDefault#392
+2025-02-11 18:01:09 [verbose]: Game-wide working beatmap updated to cYsmix - triangles (peppy) [peppy]
+2025-02-11 18:01:09 [verbose]: 📺 BackgroundScreenStack#255(depth:1) entered BackgroundScreenDefault#392
+2025-02-11 18:01:09 [verbose]: 🌅 Global background change queued
+2025-02-11 18:01:09 [verbose]: Loaded Toolbar!
+2025-02-11 18:01:09 [verbose]: Loading VolumeOverlay...
+2025-02-11 18:01:09 [verbose]: Loaded VolumeOverlay!
+2025-02-11 18:01:09 [verbose]: Loading OnScreenDisplay...
+2025-02-11 18:01:09 [verbose]: Texture 3's upload queue is large (100)
+2025-02-11 18:01:09 [verbose]: Loaded OnScreenDisplay!
+2025-02-11 18:01:09 [verbose]: Loading NotificationOverlay...
+2025-02-11 18:01:09 [verbose]: Loaded NotificationOverlay!
+2025-02-11 18:01:09 [verbose]: Loading LegacyImportManager...
+2025-02-11 18:01:09 [verbose]: Loaded LegacyImportManager!
+2025-02-11 18:01:09 [verbose]: Loading ScreenshotManager...
+2025-02-11 18:01:09 [verbose]: Loaded ScreenshotManager!
+2025-02-11 18:01:09 [verbose]: Loading VelopackUpdateManager...
+2025-02-11 18:01:09 [verbose]: Loaded VelopackUpdateManager!
+2025-02-11 18:01:09 [verbose]: Loading FirstRunSetupOverlay...
+2025-02-11 18:01:09 [verbose]: 🌅 Global background change queued
+2025-02-11 18:01:09 [verbose]: Loaded FirstRunSetupOverlay!
+2025-02-11 18:01:09 [verbose]: Loading ManageCollectionsDialog...
+2025-02-11 18:01:10 [verbose]: Loaded ManageCollectionsDialog!
+2025-02-11 18:01:10 [verbose]: Loading BeatmapListingOverlay...
+2025-02-11 18:01:10 [verbose]: Loaded BeatmapListingOverlay!
+2025-02-11 18:01:10 [verbose]: Loading DashboardOverlay...
+2025-02-11 18:01:10 [verbose]: Loaded DashboardOverlay!
+2025-02-11 18:01:10 [verbose]: Loading NewsOverlay...
+2025-02-11 18:01:10 [verbose]: Loaded NewsOverlay!
+2025-02-11 18:01:10 [verbose]: Loading RankingsOverlay...
+2025-02-11 18:01:10 [verbose]: Loaded RankingsOverlay!
+2025-02-11 18:01:10 [verbose]: Loading ChannelManager...
+2025-02-11 18:01:10 [verbose]: Loaded ChannelManager!
+2025-02-11 18:01:10 [verbose]: Loading ChatOverlay...
+2025-02-11 18:01:10 [verbose]: Loaded ChatOverlay!
+2025-02-11 18:01:10 [verbose]: Loading MessageNotifier...
+2025-02-11 18:01:10 [verbose]: Loaded MessageNotifier!
+2025-02-11 18:01:10 [verbose]: Loading SettingsOverlay...
+2025-02-11 18:01:10 [verbose]: Loaded SettingsOverlay!
+2025-02-11 18:01:10 [verbose]: Loading ChangelogOverlay...
+2025-02-11 18:01:10 [verbose]: Loaded ChangelogOverlay!
+2025-02-11 18:01:10 [verbose]: Loading UserProfileOverlay...
+2025-02-11 18:01:10 [verbose]: 🌅 Global background loading
+2025-02-11 18:01:10 [verbose]: Loaded UserProfileOverlay!
+2025-02-11 18:01:10 [verbose]: Loading BeatmapSetOverlay...
+2025-02-11 18:01:10 [verbose]: Loaded BeatmapSetOverlay!
+2025-02-11 18:01:10 [verbose]: Loading WikiOverlay...
+2025-02-11 18:01:10 [verbose]: Loaded WikiOverlay!
+2025-02-11 18:01:10 [verbose]: Loading SkinEditorOverlay...
+2025-02-11 18:01:10 [verbose]: Loaded SkinEditorOverlay!
+2025-02-11 18:01:10 [verbose]: Loading LoginOverlay...
+2025-02-11 18:01:10 [verbose]: Loaded LoginOverlay!
+2025-02-11 18:01:10 [verbose]: Loading NowPlayingOverlay...
+2025-02-11 18:01:10 [verbose]: Loaded NowPlayingOverlay!
+2025-02-11 18:01:10 [verbose]: Loading AccountCreationOverlay...
+2025-02-11 18:01:10 [verbose]: 📺 ScreenStack#536(depth:1) scheduling push ScreenWelcome#916
+2025-02-11 18:01:10 [verbose]: Loaded AccountCreationOverlay!
+2025-02-11 18:01:10 [verbose]: Loading DialogOverlay...
+2025-02-11 18:01:10 [verbose]: Loaded DialogOverlay!
+2025-02-11 18:01:10 [verbose]: Loading MedalOverlay...
+2025-02-11 18:01:10 [verbose]: Loaded MedalOverlay!
+2025-02-11 18:01:10 [verbose]: Loading BackgroundDataStoreProcessor...
+2025-02-11 18:01:10 [verbose]: Beginning background data store processing..
+2025-02-11 18:01:10 [verbose]: Loaded BackgroundDataStoreProcessor!
+2025-02-11 18:01:10 [verbose]: Loading RealmDetachedBeatmapStore...
+2025-02-11 18:01:10 [verbose]: Querying for beatmap sets to reprocess...
+2025-02-11 18:01:10 [verbose]: Querying for beatmaps with missing hitobject counts to reprocess...
+2025-02-11 18:01:10 [verbose]: Loaded RealmDetachedBeatmapStore!
+2025-02-11 18:01:10 [verbose]: Querying for scores to reprocess...
+2025-02-11 18:01:10 [verbose]: Querying for scores that need total score conversion...
+2025-02-11 18:01:10 [verbose]: Found 0 scores which require total score conversion.
+2025-02-11 18:01:10 [verbose]: Querying for scores that need rank upgrades...
+2025-02-11 18:01:10 [verbose]: Found 0 scores which require rank upgrades.
+2025-02-11 18:01:10 [verbose]: Cannot backpopulate missing submission/rank dates because the local metadata cache is missing.
+2025-02-11 18:01:10 [verbose]: Finished background data store processing!
+2025-02-11 18:01:12 [verbose]: 📺 OsuScreenStack#522(depth:2) suspended IntroTriangles#563 (waiting on MainMenu#228)
+2025-02-11 18:01:12 [verbose]: 📺 OsuScreenStack#522(depth:3) entered MainMenu#228
+2025-02-11 18:01:13 [verbose]: Requesting catch-up from 8854000
+2025-02-11 18:01:13 [verbose]: Requesting any changes since last known queue id 8854000
+2025-02-11 18:01:14 [verbose]: ButtonSystem's state changed from Initial to TopLevel
+2025-02-11 18:01:14 [verbose]: Requesting catch-up from 8854050
+2025-02-11 18:01:14 [verbose]: Requesting any changes since last known queue id 8854050
+2025-02-11 18:01:14 [verbose]: ButtonSystem's state changed from TopLevel to Play
+2025-02-11 18:01:15 [verbose]: Requesting catch-up from 8854097
+2025-02-11 18:01:15 [verbose]: Requesting any changes since last known queue id 8854097
+2025-02-11 18:01:15 [verbose]: Current channel changed to #osu
+2025-02-11 18:01:15 [verbose]: 📺 OsuScreenStack#522(depth:3) suspended MainMenu#228 (waiting on PlaySongSelect#557)
+2025-02-11 18:01:15 [verbose]: ButtonSystem's state changed from Play to EnteringMode
+2025-02-11 18:01:15 [verbose]: 📺 OsuScreenStack#522(depth:4) loading PlaySongSelect#557
+2025-02-11 18:01:15 [verbose]: decoupled ruleset transferred ("" -> "osu!")
+2025-02-11 18:01:15 [verbose]: Catch-up complete at 8854097
+2025-02-11 18:01:15 [verbose]: Texture -'s upload queue is large (100)
+2025-02-11 18:01:15 [verbose]: 📺 OsuScreenStack#522(depth:4) entered PlaySongSelect#557
+2025-02-11 18:01:15 [verbose]: 📺 BackgroundScreenStack#255(depth:2) loading BackgroundScreenBeatmap#442
+2025-02-11 18:01:15 [verbose]: 📺 BackgroundScreenStack#255(depth:2) suspended BackgroundScreenDefault#392 (waiting on BackgroundScreenBeatmap#442)
+2025-02-11 18:01:15 [verbose]: 📺 BackgroundScreenStack#255(depth:2) entered BackgroundScreenBeatmap#442
+2025-02-11 18:01:15 [verbose]: Song select updating selection with beatmap: cYsmix - Fright March (Gero) [Insane] bb95c320-2012-451f-ad14-ba9613b86d93 ruleset:osu
+2025-02-11 18:01:15 [verbose]: Song select changing beatmap from "cYsmix - triangles (peppy) [peppy]" to "cYsmix - Fright March (Gero) [Insane]"
+2025-02-11 18:01:15 [verbose]: Game-wide working beatmap updated to cYsmix - Fright March (Gero) [Insane]
+2025-02-11 18:01:15 [verbose]: Song select working beatmap updated to cYsmix - Fright March (Gero) [Insane]
+2025-02-11 18:01:15 [verbose]: Song select decided to ensurePlayingSelected
+2025-02-11 18:01:16 [verbose]: Texture 11's upload queue is large (100)
+2025-02-11 18:01:16 [verbose]: Texture 11's upload queue is large (100)
+2025-02-11 18:01:18 [verbose]: 📺 OsuScreenStack#522(depth:4) suspended PlaySongSelect#557 (waiting on PlayerLoader#596)
+2025-02-11 18:01:18 [verbose]: 📺 OsuScreenStack#522(depth:5) loading PlayerLoader#596
+2025-02-11 18:01:18 [verbose]: 📺 OsuScreenStack#522(depth:5) entered PlayerLoader#596
+2025-02-11 18:01:19 [verbose]: Texture -'s upload queue is large (100)
+2025-02-11 18:01:20 [verbose]: Score submission token retrieved (507119775)
+2025-02-11 18:01:20 [verbose]: Starting high performance session
+2025-02-11 18:01:20 [verbose]: 📺 OsuScreenStack#522(depth:5) suspended PlayerLoader#596 (waiting on SoloPlayer#507)
+2025-02-11 18:01:20 [verbose]: 📺 OsuScreenStack#522(depth:6) entered SoloPlayer#507
+2025-02-11 18:01:20 [verbose]: GameplayClockContainer seeking to -1566
+2025-02-11 18:01:20 [verbose]: GameplayClockContainer started via call to StartGameplayClock
+2025-02-11 18:01:20 [verbose]: Received beatmap updates 1 updates with last id 8854098
+2025-02-11 18:01:28 [verbose]: Beginning score submission (token:507119775)...
+2025-02-11 18:01:28 [verbose]: Score submission completed! (token:507119775 id:4337621735)
+2025-02-11 18:01:28 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:01:28 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:01:28 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:01:28 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:01:28 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:01:28 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:01:28 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:01:28 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:01:28 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:01:28 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:01:29 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:01:29 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:01:29 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:01:29 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:01:29 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:01:29 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:01:29 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:01:29 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:01:29 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:01:29 [verbose]: GameplayClockContainer stopped via call to StopGameplayClock
+2025-02-11 18:01:29 [verbose]: 📺 OsuScreenStack#522(depth:5) exit from SoloPlayer#507
+2025-02-11 18:01:29 [verbose]: 📺 OsuScreenStack#522(depth:5) resume to PlayerLoader#596
+2025-02-11 18:01:29 [verbose]: Ending high performance session
+2025-02-11 18:01:29 [verbose]: 📺 OsuScreenStack#522(depth:4) exit from PlayerLoader#596
+2025-02-11 18:01:29 [verbose]: 📺 OsuScreenStack#522(depth:4) resume to PlaySongSelect#557
+2025-02-11 18:01:29 [verbose]: Song select working beatmap updated to cYsmix - Fright March (Gero) [Insane]
+2025-02-11 18:01:29 [verbose]: 📺 BackgroundScreenStack#255(depth:1) exit from BackgroundScreenBeatmap#442
+2025-02-11 18:01:29 [verbose]: 📺 BackgroundScreenStack#255(depth:1) resume to BackgroundScreenDefault#392
+2025-02-11 18:01:29 [verbose]: 📺 OsuScreenStack#522(depth:3) exit from PlaySongSelect#557
+2025-02-11 18:01:29 [verbose]: 📺 OsuScreenStack#522(depth:3) resume to MainMenu#228
+2025-02-11 18:01:29 [verbose]: 🌅 Global background change queued
+2025-02-11 18:01:29 [verbose]: 🌅 Global background change queued
+2025-02-11 18:01:29 [verbose]: ButtonSystem's state changed from EnteringMode to TopLevel
+2025-02-11 18:01:30 [verbose]: 🌅 Global background loading
+2025-02-11 18:01:33 [verbose]: ButtonSystem's state changed from TopLevel to Play
+2025-02-11 18:01:35 [verbose]: 📺 OsuScreenStack#522(depth:3) suspended MainMenu#228 (waiting on PlaySongSelect#507)
+2025-02-11 18:01:35 [verbose]: ButtonSystem's state changed from Play to EnteringMode
+2025-02-11 18:01:35 [verbose]: 📺 OsuScreenStack#522(depth:4) loading PlaySongSelect#507
+2025-02-11 18:01:35 [verbose]: decoupled ruleset transferred ("" -> "osu!")
+2025-02-11 18:01:35 [verbose]: 📺 OsuScreenStack#522(depth:4) entered PlaySongSelect#507
+2025-02-11 18:01:35 [verbose]: 📺 BackgroundScreenStack#255(depth:2) loading BackgroundScreenBeatmap#263
+2025-02-11 18:01:35 [verbose]: 📺 BackgroundScreenStack#255(depth:2) suspended BackgroundScreenDefault#392 (waiting on BackgroundScreenBeatmap#263)
+2025-02-11 18:01:35 [verbose]: 📺 BackgroundScreenStack#255(depth:2) entered BackgroundScreenBeatmap#263
+2025-02-11 18:01:36 [verbose]: Song select updating selection with beatmap: cYsmix - Fright March (Gero) [Insane] bb95c320-2012-451f-ad14-ba9613b86d93 ruleset:osu
+2025-02-11 18:01:38 [verbose]: Song select updating selection with beatmap: Masayuki Suzuki feat. Suu - GIRI GIRI (TV Size) (hypercyte) [Light Insane] 474a63c8-3575-42e3-a887-56a8f5bd62cf ruleset:osu
+2025-02-11 18:01:38 [verbose]: Song select changing beatmap from "cYsmix - Fright March (Gero) [Insane]" to "Masayuki Suzuki feat. Suu - GIRI GIRI (TV Size) (hypercyte) [Light Insane]"
+2025-02-11 18:01:38 [verbose]: Game-wide working beatmap updated to Masayuki Suzuki feat. Suu - GIRI GIRI (TV Size) (hypercyte) [Light Insane]
+2025-02-11 18:01:38 [verbose]: Song select working beatmap updated to Masayuki Suzuki feat. Suu - GIRI GIRI (TV Size) (hypercyte) [Light Insane]
+2025-02-11 18:01:38 [verbose]: Song select decided to ensurePlayingSelected
+2025-02-11 18:01:39 [verbose]: 📺 OsuScreenStack#522(depth:4) suspended PlaySongSelect#507 (waiting on PlayerLoader#509)
+2025-02-11 18:01:39 [verbose]: 📺 OsuScreenStack#522(depth:5) loading PlayerLoader#509
+2025-02-11 18:01:39 [verbose]: 📺 OsuScreenStack#522(depth:5) entered PlayerLoader#509
+2025-02-11 18:01:40 [verbose]: Successfully initialized decoder: h264
+2025-02-11 18:01:40 [verbose]: Score submission token retrieved (507120184)
+2025-02-11 18:01:41 [verbose]: Starting high performance session
+2025-02-11 18:01:41 [verbose]: 📺 OsuScreenStack#522(depth:5) suspended PlayerLoader#509 (waiting on SoloPlayer#423)
+2025-02-11 18:01:41 [verbose]: 📺 OsuScreenStack#522(depth:6) entered SoloPlayer#423
+2025-02-11 18:01:41 [verbose]: GameplayClockContainer seeking to -1540
+2025-02-11 18:01:42 [verbose]: GameplayClockContainer started via call to StartGameplayClock
+2025-02-11 18:02:26 [verbose]: Received beatmap updates 1 updates with last id 8854099
+2025-02-11 18:03:11 [verbose]: Beginning score submission (token:507120184)...
+2025-02-11 18:03:11 [verbose]: Received beatmap updates 1 updates with last id 8854100
+2025-02-11 18:03:11 [verbose]: Score submission completed! (token:507120184 id:4337630696)
+2025-02-11 18:03:12 [verbose]: 📺 OsuScreenStack#522(depth:6) suspended SoloPlayer#423 (waiting on SoloResultsScreen#322)
+2025-02-11 18:03:12 [verbose]: 📺 OsuScreenStack#522(depth:7) loading SoloResultsScreen#322
+2025-02-11 18:03:12 [verbose]: 📺 OsuScreenStack#522(depth:7) entered SoloResultsScreen#322
+2025-02-11 18:03:14 [verbose]: Texture 105's upload queue is large (100)
+2025-02-11 18:03:15 [verbose]: 📺 OsuScreenStack#522(depth:6) exit from SoloResultsScreen#322
+2025-02-11 18:03:15 [verbose]: 📺 OsuScreenStack#522(depth:6) resume to SoloPlayer#423
+2025-02-11 18:03:15 [verbose]: 📺 OsuScreenStack#522(depth:5) exit from SoloPlayer#423
+2025-02-11 18:03:15 [verbose]: 📺 OsuScreenStack#522(depth:5) resume to PlayerLoader#509
+2025-02-11 18:03:15 [verbose]: Ending high performance session
+2025-02-11 18:03:15 [verbose]: 📺 OsuScreenStack#522(depth:4) exit from PlayerLoader#509
+2025-02-11 18:03:15 [verbose]: 📺 OsuScreenStack#522(depth:4) resume to PlaySongSelect#507
+2025-02-11 18:03:15 [verbose]: Song select working beatmap updated to Masayuki Suzuki feat. Suu - GIRI GIRI (TV Size) (hypercyte) [Light Insane]
+2025-02-11 18:03:16 [verbose]: Received beatmap updates 1 updates with last id 8854101
+2025-02-11 18:03:18 [verbose]: Focus contention triggered by DialogOverlay.
+2025-02-11 18:03:23 [verbose]: Song select updating selection with beatmap: Brad Breeck - Gravity Falls Theme Song (Alphabet) [Bubblun's Insane] 59b03bf2-60ff-464e-a2ff-5135e12954ae ruleset:osu
+2025-02-11 18:03:23 [verbose]: Song select changing beatmap from "Masayuki Suzuki feat. Suu - GIRI GIRI (TV Size) (hypercyte) [Light Insane]" to "Brad Breeck - Gravity Falls Theme Song (Alphabet) [Bubblun's Insane]"
+2025-02-11 18:03:23 [verbose]: Game-wide working beatmap updated to Brad Breeck - Gravity Falls Theme Song (Alphabet) [Bubblun's Insane]
+2025-02-11 18:03:23 [verbose]: Song select working beatmap updated to Brad Breeck - Gravity Falls Theme Song (Alphabet) [Bubblun's Insane]
+2025-02-11 18:03:23 [verbose]: Song select decided to ensurePlayingSelected
+2025-02-11 18:03:26 [verbose]: Song select updating selection with beatmap: Alex C. feat. Yass - Doktorspiele (Nightcore Mix) (P A N) [Hard] 143bb0d2-0c34-48ae-902d-4dd6ffa2a9e0 ruleset:osu
+2025-02-11 18:03:26 [verbose]: Song select changing beatmap from "Brad Breeck - Gravity Falls Theme Song (Alphabet) [Bubblun's Insane]" to "Alex C. feat. Yass - Doktorspiele (Nightcore Mix) (P A N) [Hard]"
+2025-02-11 18:03:26 [verbose]: Game-wide working beatmap updated to Alex C. feat. Yass - Doktorspiele (Nightcore Mix) (P A N) [Hard]
+2025-02-11 18:03:26 [verbose]: Song select working beatmap updated to Alex C. feat. Yass - Doktorspiele (Nightcore Mix) (P A N) [Hard]
+2025-02-11 18:03:26 [verbose]: Song select decided to ensurePlayingSelected
+2025-02-11 18:03:27 [verbose]: Song select updating selection with beatmap: Marie - Clover Day's (sukiNathan) [Enjoy's Hard] 3fbd1156-f8ef-457c-82d1-884af6dd8da6 ruleset:osu
+2025-02-11 18:03:27 [verbose]: Song select changing beatmap from "Alex C. feat. Yass - Doktorspiele (Nightcore Mix) (P A N) [Hard]" to "Marie - Clover Day's (sukiNathan) [Enjoy's Hard]"
+2025-02-11 18:03:27 [verbose]: Game-wide working beatmap updated to Marie - Clover Day's (sukiNathan) [Enjoy's Hard]
+2025-02-11 18:03:27 [verbose]: Song select working beatmap updated to Marie - Clover Day's (sukiNathan) [Enjoy's Hard]
+2025-02-11 18:03:27 [verbose]: Song select decided to ensurePlayingSelected
+2025-02-11 18:03:28 [verbose]: Song select updating selection with beatmap: Marie - Clover Day's (sukiNathan) [xxsukiDeathx's Insane] d6e46d37-4a14-4f2d-bce8-efeab8ccfff1 ruleset:osu
+2025-02-11 18:03:28 [verbose]: Song select changing beatmap from "Marie - Clover Day's (sukiNathan) [Enjoy's Hard]" to "Marie - Clover Day's (sukiNathan) [xxsukiDeathx's Insane]"
+2025-02-11 18:03:28 [verbose]: Game-wide working beatmap updated to Marie - Clover Day's (sukiNathan) [xxsukiDeathx's Insane]
+2025-02-11 18:03:28 [verbose]: Song select working beatmap updated to Marie - Clover Day's (sukiNathan) [xxsukiDeathx's Insane]
+2025-02-11 18:03:29 [verbose]: 📺 OsuScreenStack#522(depth:4) suspended PlaySongSelect#507 (waiting on PlayerLoader#294)
+2025-02-11 18:03:29 [verbose]: 📺 OsuScreenStack#522(depth:5) loading PlayerLoader#294
+2025-02-11 18:03:29 [verbose]: 📺 OsuScreenStack#522(depth:5) entered PlayerLoader#294
+2025-02-11 18:03:30 [verbose]: Score submission token retrieved (507122404)
+2025-02-11 18:03:31 [verbose]: Starting high performance session
+2025-02-11 18:03:31 [verbose]: 📺 OsuScreenStack#522(depth:5) suspended PlayerLoader#294 (waiting on SoloPlayer#415)
+2025-02-11 18:03:31 [verbose]: 📺 OsuScreenStack#522(depth:6) entered SoloPlayer#415
+2025-02-11 18:03:31 [verbose]: GameplayClockContainer seeking to -1359
+2025-02-11 18:03:32 [verbose]: GameplayClockContainer started via call to StartGameplayClock
+2025-02-11 18:03:56 [verbose]: Received beatmap updates 1 updates with last id 8854102
+2025-02-11 18:04:16 [verbose]: Received beatmap updates 1 updates with last id 8854103
+2025-02-11 18:04:31 [verbose]: Received beatmap updates 1 updates with last id 8854104
+2025-02-11 18:05:31 [verbose]: Beginning score submission (token:507122404)...
+2025-02-11 18:05:31 [verbose]: Score submission completed! (token:507122404 id:4337642951)
+2025-02-11 18:05:32 [verbose]: 📺 OsuScreenStack#522(depth:6) suspended SoloPlayer#415 (waiting on SoloResultsScreen#352)
+2025-02-11 18:05:32 [verbose]: 📺 OsuScreenStack#522(depth:7) loading SoloResultsScreen#352
+2025-02-11 18:05:32 [verbose]: 📺 OsuScreenStack#522(depth:7) entered SoloResultsScreen#352
+2025-02-11 18:05:35 [verbose]: 📺 OsuScreenStack#522(depth:6) exit from SoloResultsScreen#352
+2025-02-11 18:05:35 [verbose]: 📺 OsuScreenStack#522(depth:6) resume to SoloPlayer#415
+2025-02-11 18:05:35 [verbose]: 📺 OsuScreenStack#522(depth:5) exit from SoloPlayer#415
+2025-02-11 18:05:35 [verbose]: 📺 OsuScreenStack#522(depth:5) resume to PlayerLoader#294
+2025-02-11 18:05:35 [verbose]: Ending high performance session
+2025-02-11 18:05:35 [verbose]: 📺 OsuScreenStack#522(depth:4) exit from PlayerLoader#294
+2025-02-11 18:05:35 [verbose]: 📺 OsuScreenStack#522(depth:4) resume to PlaySongSelect#507
+2025-02-11 18:05:35 [verbose]: Song select working beatmap updated to Marie - Clover Day's (sukiNathan) [xxsukiDeathx's Insane]
+2025-02-11 18:05:35 [verbose]: Song select updating selection with beatmap: Marie - Clover Day's (sukiNathan) [xxsukiDeathx's Insane] d6e46d37-4a14-4f2d-bce8-efeab8ccfff1 ruleset:osu
+2025-02-11 18:05:38 [verbose]: Focus contention triggered by DialogOverlay.
+2025-02-11 18:05:42 [verbose]: Song select updating selection with beatmap: Sarah Connor - Cold As Ice (PH Electro Remix) (Nightcore Mix) (Gologle) [Infamous Hype] c7cf8ab1-1d07-4349-9522-f218b2114e8e ruleset:osu
+2025-02-11 18:05:42 [verbose]: Song select changing beatmap from "Marie - Clover Day's (sukiNathan) [xxsukiDeathx's Insane]" to "Sarah Connor - Cold As Ice (PH Electro Remix) (Nightcore Mix) (Gologle) [Infamous Hype]"
+2025-02-11 18:05:42 [verbose]: Game-wide working beatmap updated to Sarah Connor - Cold As Ice (PH Electro Remix) (Nightcore Mix) (Gologle) [Infamous Hype]
+2025-02-11 18:05:42 [verbose]: Song select working beatmap updated to Sarah Connor - Cold As Ice (PH Electro Remix) (Nightcore Mix) (Gologle) [Infamous Hype]
+2025-02-11 18:05:42 [verbose]: Song select decided to ensurePlayingSelected
+2025-02-11 18:05:43 [verbose]: Song select updating selection with beatmap: Sarah Connor - Cold As Ice (PH Electro Remix) (Nightcore Mix) (Gologle) [Insane] 050c3f4e-5ee5-4bcf-aa9f-80a82745cbba ruleset:osu
+2025-02-11 18:05:43 [verbose]: Song select changing beatmap from "Sarah Connor - Cold As Ice (PH Electro Remix) (Nightcore Mix) (Gologle) [Infamous Hype]" to "Sarah Connor - Cold As Ice (PH Electro Remix) (Nightcore Mix) (Gologle) [Insane]"
+2025-02-11 18:05:43 [verbose]: Game-wide working beatmap updated to Sarah Connor - Cold As Ice (PH Electro Remix) (Nightcore Mix) (Gologle) [Insane]
+2025-02-11 18:05:43 [verbose]: Song select working beatmap updated to Sarah Connor - Cold As Ice (PH Electro Remix) (Nightcore Mix) (Gologle) [Insane]
+2025-02-11 18:05:44 [verbose]: 📺 OsuScreenStack#522(depth:4) suspended PlaySongSelect#507 (waiting on PlayerLoader#657)
+2025-02-11 18:05:44 [verbose]: 📺 OsuScreenStack#522(depth:5) loading PlayerLoader#657
+2025-02-11 18:05:44 [verbose]: 📺 OsuScreenStack#522(depth:5) entered PlayerLoader#657
+2025-02-11 18:05:45 [verbose]: Score submission token retrieved (507125103)
+2025-02-11 18:05:46 [verbose]: Starting high performance session
+2025-02-11 18:05:47 [verbose]: 📺 OsuScreenStack#522(depth:5) suspended PlayerLoader#657 (waiting on SoloPlayer#154)
+2025-02-11 18:05:47 [verbose]: 📺 OsuScreenStack#522(depth:6) entered SoloPlayer#154
+2025-02-11 18:05:47 [verbose]: GameplayClockContainer seeking to -267
+2025-02-11 18:05:47 [verbose]: GameplayClockContainer started via call to StartGameplayClock
+2025-02-11 18:05:56 [verbose]: Received beatmap updates 1 updates with last id 8854105
+2025-02-11 18:06:07 [verbose]: Received beatmap updates 1 updates with last id 8854106
+2025-02-11 18:06:08 [verbose]: Beginning score submission (token:507125103)...
+2025-02-11 18:06:08 [verbose]: Score submission completed! (token:507125103 id:4337646147)
+2025-02-11 18:06:08 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:06:08 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:06:09 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:06:09 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:06:09 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:06:09 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:06:09 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:06:09 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:06:09 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:06:09 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:06:09 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:06:09 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:06:09 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:06:09 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:06:09 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:06:09 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:06:09 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:06:09 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:06:09 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:06:09 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:06:09 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:06:09 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:06:09 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:06:09 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:06:09 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:06:09 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:06:09 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:06:09 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:06:09 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:06:09 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:06:09 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:06:09 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:06:09 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:06:09 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:06:09 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:06:09 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:06:09 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:06:09 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:06:09 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:06:09 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:06:09 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:06:09 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:06:09 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:06:09 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:06:09 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:06:09 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:06:09 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:06:09 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:06:09 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:06:09 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:06:09 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:06:09 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:06:09 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:06:09 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:06:09 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:06:09 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:06:09 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:06:09 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:06:10 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:06:10 [verbose]: 📺 OsuScreenStack#522(depth:5) exit from SoloPlayer#154
+2025-02-11 18:06:10 [verbose]: 📺 OsuScreenStack#522(depth:5) resume to PlayerLoader#657
+2025-02-11 18:06:10 [verbose]: Ending high performance session
+2025-02-11 18:06:10 [verbose]: Score submission token retrieved (507125598)
+2025-02-11 18:06:10 [verbose]: Starting high performance session
+2025-02-11 18:06:11 [verbose]: 📺 OsuScreenStack#522(depth:5) suspended PlayerLoader#657 (waiting on SoloPlayer#935)
+2025-02-11 18:06:11 [verbose]: 📺 OsuScreenStack#522(depth:6) entered SoloPlayer#935
+2025-02-11 18:06:11 [verbose]: GameplayClockContainer seeking to -267
+2025-02-11 18:06:11 [verbose]: GameplayClockContainer started via call to StartGameplayClock
+2025-02-11 18:06:32 [verbose]: Received beatmap updates 1 updates with last id 8854107
+2025-02-11 18:07:12 [verbose]: Received beatmap updates 1 updates with last id 8854108
+2025-02-11 18:07:52 [verbose]: Received beatmap updates 1 updates with last id 8854109
+2025-02-11 18:08:01 [verbose]: Beginning score submission (token:507125598)...
+2025-02-11 18:08:01 [verbose]: Score submission completed! (token:507125598 id:4337656055)
+2025-02-11 18:08:01 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:08:01 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:08:01 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:08:01 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:08:01 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:08:01 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:08:01 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:08:01 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:08:01 [verbose]: GameplayClockContainer stopped via call to StopGameplayClock
+2025-02-11 18:08:01 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:08:02 [verbose]: 📺 OsuScreenStack#522(depth:5) exit from SoloPlayer#935
+2025-02-11 18:08:02 [verbose]: 📺 OsuScreenStack#522(depth:5) resume to PlayerLoader#657
+2025-02-11 18:08:02 [verbose]: Ending high performance session
+2025-02-11 18:08:02 [verbose]: 📺 OsuScreenStack#522(depth:4) exit from PlayerLoader#657
+2025-02-11 18:08:02 [verbose]: 📺 OsuScreenStack#522(depth:4) resume to PlaySongSelect#507
+2025-02-11 18:08:02 [verbose]: Song select working beatmap updated to Sarah Connor - Cold As Ice (PH Electro Remix) (Nightcore Mix) (Gologle) [Insane]
+2025-02-11 18:08:02 [verbose]: Song select updating selection with beatmap: Sarah Connor - Cold As Ice (PH Electro Remix) (Nightcore Mix) (Gologle) [Insane] 050c3f4e-5ee5-4bcf-aa9f-80a82745cbba ruleset:osu
+2025-02-11 18:08:02 [verbose]: Received beatmap updates 1 updates with last id 8854110
+2025-02-11 18:08:06 [verbose]: Focus contention triggered by DialogOverlay.
+2025-02-11 18:08:09 [verbose]: Song select updating selection with beatmap: Alex C. feat. Yass - Doktorspiele (Nightcore Mix) (P A N) [Hard] 143bb0d2-0c34-48ae-902d-4dd6ffa2a9e0 ruleset:osu
+2025-02-11 18:08:09 [verbose]: Song select changing beatmap from "Sarah Connor - Cold As Ice (PH Electro Remix) (Nightcore Mix) (Gologle) [Insane]" to "Alex C. feat. Yass - Doktorspiele (Nightcore Mix) (P A N) [Hard]"
+2025-02-11 18:08:09 [verbose]: Game-wide working beatmap updated to Alex C. feat. Yass - Doktorspiele (Nightcore Mix) (P A N) [Hard]
+2025-02-11 18:08:09 [verbose]: Song select working beatmap updated to Alex C. feat. Yass - Doktorspiele (Nightcore Mix) (P A N) [Hard]
+2025-02-11 18:08:09 [verbose]: Song select decided to ensurePlayingSelected
+2025-02-11 18:08:10 [verbose]: 📺 OsuScreenStack#522(depth:4) suspended PlaySongSelect#507 (waiting on PlayerLoader#438)
+2025-02-11 18:08:10 [verbose]: 📺 OsuScreenStack#522(depth:5) loading PlayerLoader#438
+2025-02-11 18:08:10 [verbose]: 📺 OsuScreenStack#522(depth:5) entered PlayerLoader#438
+2025-02-11 18:08:12 [important]: Your score will not be submitted. invalid or missing beatmap_hash
+2025-02-11 18:08:12 [verbose]: ⚠️ Your score will not be submitted. invalid or missing beatmap_hash
+2025-02-11 18:08:12 [verbose]: Starting high performance session
+2025-02-11 18:08:13 [verbose]: 📺 OsuScreenStack#522(depth:5) suspended PlayerLoader#438 (waiting on SoloPlayer#539)
+2025-02-11 18:08:13 [verbose]: 📺 OsuScreenStack#522(depth:6) entered SoloPlayer#539
+2025-02-11 18:08:13 [verbose]: GameplayClockContainer seeking to -379
+2025-02-11 18:08:13 [verbose]: GameplayClockContainer started via call to StartGameplayClock
+2025-02-11 18:08:57 [verbose]: Received beatmap updates 1 updates with last id 8854111
+2025-02-11 18:09:27 [verbose]: Received beatmap updates 1 updates with last id 8854112
+2025-02-11 18:10:43 [verbose]: Received beatmap updates 1 updates with last id 8854113
+2025-02-11 18:11:06 [verbose]: No token, skipping score submission
+2025-02-11 18:11:06 [verbose]: 📺 OsuScreenStack#522(depth:6) suspended SoloPlayer#539 (waiting on SoloResultsScreen#502)
+2025-02-11 18:11:06 [verbose]: 📺 OsuScreenStack#522(depth:7) loading SoloResultsScreen#502
+2025-02-11 18:11:06 [verbose]: 📺 OsuScreenStack#522(depth:7) entered SoloResultsScreen#502
+2025-02-11 18:11:08 [verbose]: 📺 OsuScreenStack#522(depth:6) exit from SoloResultsScreen#502
+2025-02-11 18:11:08 [verbose]: 📺 OsuScreenStack#522(depth:6) resume to SoloPlayer#539
+2025-02-11 18:11:08 [verbose]: No token, skipping score submission
+2025-02-11 18:11:08 [verbose]: 📺 OsuScreenStack#522(depth:5) exit from SoloPlayer#539
+2025-02-11 18:11:08 [verbose]: 📺 OsuScreenStack#522(depth:5) resume to PlayerLoader#438
+2025-02-11 18:11:08 [verbose]: Ending high performance session
+2025-02-11 18:11:08 [verbose]: 📺 OsuScreenStack#522(depth:4) exit from PlayerLoader#438
+2025-02-11 18:11:08 [verbose]: 📺 OsuScreenStack#522(depth:4) resume to PlaySongSelect#507
+2025-02-11 18:11:08 [verbose]: Song select working beatmap updated to Alex C. feat. Yass - Doktorspiele (Nightcore Mix) (P A N) [Hard]
+2025-02-11 18:11:16 [verbose]: Song select updating selection with beatmap: Crusher - ECHO (Abelia) [Light Insane] 21e593f0-60ff-417e-8bbd-af8237f3d589 ruleset:osu
+2025-02-11 18:11:16 [verbose]: Song select changing beatmap from "Alex C. feat. Yass - Doktorspiele (Nightcore Mix) (P A N) [Hard]" to "Crusher - ECHO (Abelia) [Light Insane]"
+2025-02-11 18:11:16 [verbose]: Game-wide working beatmap updated to Crusher - ECHO (Abelia) [Light Insane]
+2025-02-11 18:11:16 [verbose]: Song select working beatmap updated to Crusher - ECHO (Abelia) [Light Insane]
+2025-02-11 18:11:16 [verbose]: Song select decided to ensurePlayingSelected
+2025-02-11 18:11:17 [verbose]: Song select updating selection with beatmap: cYsmix - Fright March (Gero) [Insane] bb95c320-2012-451f-ad14-ba9613b86d93 ruleset:osu
+2025-02-11 18:11:17 [verbose]: Song select changing beatmap from "Crusher - ECHO (Abelia) [Light Insane]" to "cYsmix - Fright March (Gero) [Insane]"
+2025-02-11 18:11:17 [verbose]: Game-wide working beatmap updated to cYsmix - Fright March (Gero) [Insane]
+2025-02-11 18:11:17 [verbose]: Song select working beatmap updated to cYsmix - Fright March (Gero) [Insane]
+2025-02-11 18:11:17 [verbose]: Song select decided to ensurePlayingSelected
+2025-02-11 18:11:21 [verbose]: Song select updating selection with beatmap: UNDEAD CORPORATION - Everything will freeze (Ekoro) [Insane] 6e372fdc-163d-4fc7-9390-4f8e65af2ce2 ruleset:osu
+2025-02-11 18:11:21 [verbose]: Song select changing beatmap from "cYsmix - Fright March (Gero) [Insane]" to "UNDEAD CORPORATION - Everything will freeze (Ekoro) [Insane]"
+2025-02-11 18:11:21 [verbose]: Game-wide working beatmap updated to UNDEAD CORPORATION - Everything will freeze (Ekoro) [Insane]
+2025-02-11 18:11:21 [verbose]: Song select working beatmap updated to UNDEAD CORPORATION - Everything will freeze (Ekoro) [Insane]
+2025-02-11 18:11:21 [verbose]: Song select decided to ensurePlayingSelected
+2025-02-11 18:11:24 [verbose]: Song select updating selection with beatmap: inabakumori - Lagtrain (Sagu) [tokiko's Hard] f7584978-cbbb-402e-91fa-80039fb47aeb ruleset:osu
+2025-02-11 18:11:24 [verbose]: Song select changing beatmap from "UNDEAD CORPORATION - Everything will freeze (Ekoro) [Insane]" to "inabakumori - Lagtrain (Sagu) [tokiko's Hard]"
+2025-02-11 18:11:24 [verbose]: Game-wide working beatmap updated to inabakumori - Lagtrain (Sagu) [tokiko's Hard]
+2025-02-11 18:11:24 [verbose]: Song select working beatmap updated to inabakumori - Lagtrain (Sagu) [tokiko's Hard]
+2025-02-11 18:11:24 [verbose]: Song select decided to ensurePlayingSelected
+2025-02-11 18:11:26 [verbose]: Song select updating selection with beatmap: Gawr Gura - Kyoufuu All Back (sahuang) [Collab Insane] 916e6970-80dc-4a7d-9ec7-b77a498bcebe ruleset:osu
+2025-02-11 18:11:26 [verbose]: Song select changing beatmap from "inabakumori - Lagtrain (Sagu) [tokiko's Hard]" to "Gawr Gura - Kyoufuu All Back (sahuang) [Collab Insane]"
+2025-02-11 18:11:26 [verbose]: Game-wide working beatmap updated to Gawr Gura - Kyoufuu All Back (sahuang) [Collab Insane]
+2025-02-11 18:11:26 [verbose]: Song select working beatmap updated to Gawr Gura - Kyoufuu All Back (sahuang) [Collab Insane]
+2025-02-11 18:11:26 [verbose]: Song select decided to ensurePlayingSelected
+2025-02-11 18:11:28 [verbose]: Song select updating selection with beatmap: Ray Volpe - Laserbeam (Blanke's AEON:REMIX) (DeRandom Otaku) [Nilou's Hard] 7f6e9150-f38c-4b52-b8ca-c70bc3cbd762 ruleset:osu
+2025-02-11 18:11:28 [verbose]: Song select changing beatmap from "Gawr Gura - Kyoufuu All Back (sahuang) [Collab Insane]" to "Ray Volpe - Laserbeam (Blanke's AEON:REMIX) (DeRandom Otaku) [Nilou's Hard]"
+2025-02-11 18:11:28 [verbose]: Game-wide working beatmap updated to Ray Volpe - Laserbeam (Blanke's AEON:REMIX) (DeRandom Otaku) [Nilou's Hard]
+2025-02-11 18:11:28 [verbose]: Song select working beatmap updated to Ray Volpe - Laserbeam (Blanke's AEON:REMIX) (DeRandom Otaku) [Nilou's Hard]
+2025-02-11 18:11:28 [verbose]: Song select decided to ensurePlayingSelected
+2025-02-11 18:11:29 [verbose]: Song select updating selection with beatmap: Ray Volpe - Laserbeam (Blanke's AEON:REMIX) (DeRandom Otaku) [Chiga's Insane] 4c3e9f58-3360-4165-85f0-788ae73ee36f ruleset:osu
+2025-02-11 18:11:29 [verbose]: Song select changing beatmap from "Ray Volpe - Laserbeam (Blanke's AEON:REMIX) (DeRandom Otaku) [Nilou's Hard]" to "Ray Volpe - Laserbeam (Blanke's AEON:REMIX) (DeRandom Otaku) [Chiga's Insane]"
+2025-02-11 18:11:29 [verbose]: Game-wide working beatmap updated to Ray Volpe - Laserbeam (Blanke's AEON:REMIX) (DeRandom Otaku) [Chiga's Insane]
+2025-02-11 18:11:29 [verbose]: Song select working beatmap updated to Ray Volpe - Laserbeam (Blanke's AEON:REMIX) (DeRandom Otaku) [Chiga's Insane]
+2025-02-11 18:11:31 [verbose]: Song select updating selection with beatmap: EmoCosine - Love Kills U (Short Ver.) (smolship) [Hard] ae9a3810-720b-4b03-85ec-9c0ad34b3559 ruleset:osu
+2025-02-11 18:11:31 [verbose]: Song select changing beatmap from "Ray Volpe - Laserbeam (Blanke's AEON:REMIX) (DeRandom Otaku) [Chiga's Insane]" to "EmoCosine - Love Kills U (Short Ver.) (smolship) [Hard]"
+2025-02-11 18:11:31 [verbose]: Game-wide working beatmap updated to EmoCosine - Love Kills U (Short Ver.) (smolship) [Hard]
+2025-02-11 18:11:31 [verbose]: Song select working beatmap updated to EmoCosine - Love Kills U (Short Ver.) (smolship) [Hard]
+2025-02-11 18:11:31 [verbose]: Song select decided to ensurePlayingSelected
+2025-02-11 18:11:31 [verbose]: 📺 OsuScreenStack#522(depth:4) suspended PlaySongSelect#507 (waiting on PlayerLoader#448)
+2025-02-11 18:11:31 [verbose]: 📺 OsuScreenStack#522(depth:5) loading PlayerLoader#448
+2025-02-11 18:11:32 [verbose]: 📺 OsuScreenStack#522(depth:5) entered PlayerLoader#448
+2025-02-11 18:11:33 [verbose]: Score submission token retrieved (507132088)
+2025-02-11 18:11:33 [verbose]: Starting high performance session
+2025-02-11 18:11:34 [verbose]: 📺 OsuScreenStack#522(depth:5) suspended PlayerLoader#448 (waiting on SoloPlayer#300)
+2025-02-11 18:11:34 [verbose]: 📺 OsuScreenStack#522(depth:6) entered SoloPlayer#300
+2025-02-11 18:11:34 [verbose]: GameplayClockContainer seeking to 0
+2025-02-11 18:11:34 [verbose]: GameplayClockContainer started via call to StartGameplayClock
+2025-02-11 18:11:35 [verbose]: GameplayClockContainer stopped via call to StopGameplayClock
+2025-02-11 18:11:36 [verbose]: No hits registered, skipping score submission
+2025-02-11 18:11:36 [verbose]: 📺 OsuScreenStack#522(depth:5) exit from SoloPlayer#300
+2025-02-11 18:11:36 [verbose]: 📺 OsuScreenStack#522(depth:5) resume to PlayerLoader#448
+2025-02-11 18:11:36 [verbose]: Ending high performance session
+2025-02-11 18:11:36 [verbose]: 📺 OsuScreenStack#522(depth:4) exit from PlayerLoader#448
+2025-02-11 18:11:36 [verbose]: 📺 OsuScreenStack#522(depth:4) resume to PlaySongSelect#507
+2025-02-11 18:11:36 [verbose]: Song select working beatmap updated to EmoCosine - Love Kills U (Short Ver.) (smolship) [Hard]
+2025-02-11 18:11:37 [verbose]: Song select updating selection with beatmap: EmoCosine - Love Kills U (Short Ver.) (smolship) [Insane] 3d6d4c89-790c-4544-a655-2c3e28bdeb4f ruleset:osu
+2025-02-11 18:11:37 [verbose]: Song select changing beatmap from "EmoCosine - Love Kills U (Short Ver.) (smolship) [Hard]" to "EmoCosine - Love Kills U (Short Ver.) (smolship) [Insane]"
+2025-02-11 18:11:37 [verbose]: Game-wide working beatmap updated to EmoCosine - Love Kills U (Short Ver.) (smolship) [Insane]
+2025-02-11 18:11:37 [verbose]: Song select working beatmap updated to EmoCosine - Love Kills U (Short Ver.) (smolship) [Insane]
+2025-02-11 18:11:37 [verbose]: 📺 OsuScreenStack#522(depth:4) suspended PlaySongSelect#507 (waiting on PlayerLoader#616)
+2025-02-11 18:11:37 [verbose]: 📺 OsuScreenStack#522(depth:5) loading PlayerLoader#616
+2025-02-11 18:11:37 [verbose]: 📺 OsuScreenStack#522(depth:5) entered PlayerLoader#616
+2025-02-11 18:11:38 [verbose]: Received beatmap updates 1 updates with last id 8854114
+2025-02-11 18:11:39 [verbose]: Score submission token retrieved (507132203)
+2025-02-11 18:11:39 [verbose]: Starting high performance session
+2025-02-11 18:11:40 [verbose]: 📺 OsuScreenStack#522(depth:5) suspended PlayerLoader#616 (waiting on SoloPlayer#629)
+2025-02-11 18:11:40 [verbose]: 📺 OsuScreenStack#522(depth:6) entered SoloPlayer#629
+2025-02-11 18:11:40 [verbose]: GameplayClockContainer seeking to 0
+2025-02-11 18:11:40 [verbose]: GameplayClockContainer started via call to StartGameplayClock
+2025-02-11 18:12:06 [verbose]: Beginning score submission (token:507132203)...
+2025-02-11 18:12:06 [verbose]: Score submission completed! (token:507132203 id:4337677429)
+2025-02-11 18:12:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:12:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:12:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:12:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:12:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:12:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:12:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:12:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:12:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:12:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:12:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:12:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:12:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:12:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:12:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:12:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:12:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:12:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:12:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:12:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:12:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:12:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:12:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:12:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:12:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:12:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:12:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:12:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:12:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:12:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:12:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:12:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:12:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:12:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:12:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:12:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:12:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:12:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:12:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:12:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:12:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:12:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:12:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:12:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:12:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:12:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:12:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:12:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:12:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:12:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:12:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:12:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:12:07 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:12:07 [verbose]: GameplayClockContainer stopped via call to StopGameplayClock
+2025-02-11 18:12:08 [verbose]: 📺 OsuScreenStack#522(depth:5) exit from SoloPlayer#629
+2025-02-11 18:12:08 [verbose]: 📺 OsuScreenStack#522(depth:5) resume to PlayerLoader#616
+2025-02-11 18:12:08 [verbose]: Ending high performance session
+2025-02-11 18:12:08 [verbose]: 📺 OsuScreenStack#522(depth:4) exit from PlayerLoader#616
+2025-02-11 18:12:08 [verbose]: 📺 OsuScreenStack#522(depth:4) resume to PlaySongSelect#507
+2025-02-11 18:12:08 [verbose]: Song select working beatmap updated to EmoCosine - Love Kills U (Short Ver.) (smolship) [Insane]
+2025-02-11 18:12:08 [verbose]: Song select updating selection with beatmap: EmoCosine - Love Kills U (Short Ver.) (smolship) [Insane] 3d6d4c89-790c-4544-a655-2c3e28bdeb4f ruleset:osu
+2025-02-11 18:12:10 [verbose]: Song select updating selection with beatmap: Ray Volpe - Laserbeam (Blanke's AEON:REMIX) (DeRandom Otaku) [Chiga's Insane] 4c3e9f58-3360-4165-85f0-788ae73ee36f ruleset:osu
+2025-02-11 18:12:10 [verbose]: Song select changing beatmap from "EmoCosine - Love Kills U (Short Ver.) (smolship) [Insane]" to "Ray Volpe - Laserbeam (Blanke's AEON:REMIX) (DeRandom Otaku) [Chiga's Insane]"
+2025-02-11 18:12:10 [verbose]: Game-wide working beatmap updated to Ray Volpe - Laserbeam (Blanke's AEON:REMIX) (DeRandom Otaku) [Chiga's Insane]
+2025-02-11 18:12:10 [verbose]: Song select working beatmap updated to Ray Volpe - Laserbeam (Blanke's AEON:REMIX) (DeRandom Otaku) [Chiga's Insane]
+2025-02-11 18:12:10 [verbose]: Song select decided to ensurePlayingSelected
+2025-02-11 18:12:11 [verbose]: 📺 OsuScreenStack#522(depth:4) suspended PlaySongSelect#507 (waiting on PlayerLoader#257)
+2025-02-11 18:12:11 [verbose]: 📺 OsuScreenStack#522(depth:5) loading PlayerLoader#257
+2025-02-11 18:12:11 [verbose]: 📺 OsuScreenStack#522(depth:5) entered PlayerLoader#257
+2025-02-11 18:12:13 [verbose]: Score submission token retrieved (507132861)
+2025-02-11 18:12:13 [verbose]: Starting high performance session
+2025-02-11 18:12:13 [verbose]: 📺 OsuScreenStack#522(depth:5) suspended PlayerLoader#257 (waiting on SoloPlayer#869)
+2025-02-11 18:12:13 [verbose]: 📺 OsuScreenStack#522(depth:6) entered SoloPlayer#869
+2025-02-11 18:12:13 [verbose]: GameplayClockContainer seeking to 0
+2025-02-11 18:12:14 [verbose]: GameplayClockContainer started via call to StartGameplayClock
+2025-02-11 18:12:15 [verbose]: GameplayClockContainer seeking to 8147
+2025-02-11 18:13:33 [verbose]: Received beatmap updates 2 updates with last id 8854116
+2025-02-11 18:14:29 [verbose]: Received beatmap updates 1 updates with last id 8854117
+2025-02-11 18:14:51 [verbose]: Beginning score submission (token:507132861)...
+2025-02-11 18:14:51 [verbose]: Score submission completed! (token:507132861 id:4337692062)
+2025-02-11 18:14:52 [verbose]: 📺 OsuScreenStack#522(depth:6) suspended SoloPlayer#869 (waiting on SoloResultsScreen#157)
+2025-02-11 18:14:52 [verbose]: 📺 OsuScreenStack#522(depth:7) loading SoloResultsScreen#157
+2025-02-11 18:14:52 [verbose]: 📺 OsuScreenStack#522(depth:7) entered SoloResultsScreen#157
+2025-02-11 18:14:53 [verbose]: 📺 OsuScreenStack#522(depth:6) exit from SoloResultsScreen#157
+2025-02-11 18:14:53 [verbose]: 📺 OsuScreenStack#522(depth:6) resume to SoloPlayer#869
+2025-02-11 18:14:54 [verbose]: 📺 OsuScreenStack#522(depth:5) exit from SoloPlayer#869
+2025-02-11 18:14:54 [verbose]: 📺 OsuScreenStack#522(depth:5) resume to PlayerLoader#257
+2025-02-11 18:14:54 [verbose]: Ending high performance session
+2025-02-11 18:14:54 [verbose]: 📺 OsuScreenStack#522(depth:4) exit from PlayerLoader#257
+2025-02-11 18:14:54 [verbose]: 📺 OsuScreenStack#522(depth:4) resume to PlaySongSelect#507
+2025-02-11 18:14:54 [verbose]: Song select working beatmap updated to Ray Volpe - Laserbeam (Blanke's AEON:REMIX) (DeRandom Otaku) [Chiga's Insane]
+2025-02-11 18:14:54 [verbose]: Song select updating selection with beatmap: Ray Volpe - Laserbeam (Blanke's AEON:REMIX) (DeRandom Otaku) [Chiga's Insane] 4c3e9f58-3360-4165-85f0-788ae73ee36f ruleset:osu
+2025-02-11 18:14:58 [verbose]: Focus contention triggered by DialogOverlay.
+2025-02-11 18:15:03 [verbose]: Song select updating selection with beatmap: MIMI feat. Hatsune Miku - Marshmary (Log Off Now) [Hard] 8043a43f-f51d-4ac2-b571-47c3159780a0 ruleset:osu
+2025-02-11 18:15:03 [verbose]: Song select changing beatmap from "Ray Volpe - Laserbeam (Blanke's AEON:REMIX) (DeRandom Otaku) [Chiga's Insane]" to "MIMI feat. Hatsune Miku - Marshmary (Log Off Now) [Hard]"
+2025-02-11 18:15:03 [verbose]: Game-wide working beatmap updated to MIMI feat. Hatsune Miku - Marshmary (Log Off Now) [Hard]
+2025-02-11 18:15:03 [verbose]: Song select working beatmap updated to MIMI feat. Hatsune Miku - Marshmary (Log Off Now) [Hard]
+2025-02-11 18:15:03 [verbose]: Song select decided to ensurePlayingSelected
+2025-02-11 18:15:03 [verbose]: Song select updating selection with beatmap: toby fox - MEGALOVANIA (Kyshiro) [Hard] 1ed3089c-fd3d-48f4-8269-2ab1b27d3793 ruleset:osu
+2025-02-11 18:15:03 [verbose]: Song select changing beatmap from "MIMI feat. Hatsune Miku - Marshmary (Log Off Now) [Hard]" to "toby fox - MEGALOVANIA (Kyshiro) [Hard]"
+2025-02-11 18:15:03 [verbose]: Game-wide working beatmap updated to toby fox - MEGALOVANIA (Kyshiro) [Hard]
+2025-02-11 18:15:03 [verbose]: Song select working beatmap updated to toby fox - MEGALOVANIA (Kyshiro) [Hard]
+2025-02-11 18:15:03 [verbose]: Song select decided to ensurePlayingSelected
+2025-02-11 18:15:05 [verbose]: Song select updating selection with beatmap: utsuP - MiKUSABBATH (- Milhofo -) [-Tochi's Insane] 8f971eb7-a545-446d-8673-f8d9f33af4ab ruleset:osu
+2025-02-11 18:15:05 [verbose]: Song select changing beatmap from "toby fox - MEGALOVANIA (Kyshiro) [Hard]" to "utsuP - MiKUSABBATH (- Milhofo -) [-Tochi's Insane]"
+2025-02-11 18:15:05 [verbose]: Game-wide working beatmap updated to utsuP - MiKUSABBATH (- Milhofo -) [-Tochi's Insane]
+2025-02-11 18:15:05 [verbose]: Song select working beatmap updated to utsuP - MiKUSABBATH (- Milhofo -) [-Tochi's Insane]
+2025-02-11 18:15:05 [verbose]: Song select decided to ensurePlayingSelected
+2025-02-11 18:15:06 [verbose]: Song select updating selection with beatmap: ZUTOMAYO - Minority Myakuraku (0ugi) [Flake's Insane] 537281c4-5557-4480-beee-ac9327b8bdd8 ruleset:osu
+2025-02-11 18:15:06 [verbose]: Song select changing beatmap from "utsuP - MiKUSABBATH (- Milhofo -) [-Tochi's Insane]" to "ZUTOMAYO - Minority Myakuraku (0ugi) [Flake's Insane]"
+2025-02-11 18:15:06 [verbose]: Game-wide working beatmap updated to ZUTOMAYO - Minority Myakuraku (0ugi) [Flake's Insane]
+2025-02-11 18:15:06 [verbose]: Song select working beatmap updated to ZUTOMAYO - Minority Myakuraku (0ugi) [Flake's Insane]
+2025-02-11 18:15:06 [verbose]: Song select decided to ensurePlayingSelected
+2025-02-11 18:15:07 [verbose]: Song select updating selection with beatmap: Various Artists - Mizu's Jump Training #2 (Mizu) [Bonus: Free Fall] d6fde96d-bae6-48fb-a453-d8993e11c0ba ruleset:osu
+2025-02-11 18:15:07 [verbose]: Song select changing beatmap from "ZUTOMAYO - Minority Myakuraku (0ugi) [Flake's Insane]" to "Various Artists - Mizu's Jump Training #2 (Mizu) [Bonus: Free Fall]"
+2025-02-11 18:15:07 [verbose]: Game-wide working beatmap updated to Various Artists - Mizu's Jump Training #2 (Mizu) [Bonus: Free Fall]
+2025-02-11 18:15:07 [verbose]: Song select working beatmap updated to Various Artists - Mizu's Jump Training #2 (Mizu) [Bonus: Free Fall]
+2025-02-11 18:15:07 [verbose]: Song select decided to ensurePlayingSelected
+2025-02-11 18:15:09 [verbose]: Song select updating selection with beatmap: LOVIMOMENT - NA PAMYAT' (Daycore) [highlight] 933ae0e9-b79a-4ebd-af12-65c1777b502c ruleset:osu
+2025-02-11 18:15:09 [verbose]: Song select changing beatmap from "Various Artists - Mizu's Jump Training #2 (Mizu) [Bonus: Free Fall]" to "LOVIMOMENT - NA PAMYAT' (Daycore) [highlight]"
+2025-02-11 18:15:09 [verbose]: Game-wide working beatmap updated to LOVIMOMENT - NA PAMYAT' (Daycore) [highlight]
+2025-02-11 18:15:09 [verbose]: Song select working beatmap updated to LOVIMOMENT - NA PAMYAT' (Daycore) [highlight]
+2025-02-11 18:15:09 [verbose]: Song select decided to ensurePlayingSelected
+2025-02-11 18:15:10 [verbose]: Song select updating selection with beatmap: Momokurotei Ichimon - Nippon Egao Hyakkei (alden) [sanya's insane] c6636bc1-ac7a-4256-ab33-ae01fc4f4797 ruleset:osu
+2025-02-11 18:15:10 [verbose]: Song select changing beatmap from "LOVIMOMENT - NA PAMYAT' (Daycore) [highlight]" to "Momokurotei Ichimon - Nippon Egao Hyakkei (alden) [sanya's insane]"
+2025-02-11 18:15:10 [verbose]: Game-wide working beatmap updated to Momokurotei Ichimon - Nippon Egao Hyakkei (alden) [sanya's insane]
+2025-02-11 18:15:10 [verbose]: Song select working beatmap updated to Momokurotei Ichimon - Nippon Egao Hyakkei (alden) [sanya's insane]
+2025-02-11 18:15:10 [verbose]: Song select decided to ensurePlayingSelected
+2025-02-11 18:15:13 [verbose]: Song select updating selection with beatmap: Ado - Odo (Heilia) [Wanpachi's Hyper] e8a9202b-ee08-47ea-8c6f-0a0de599d45c ruleset:osu
+2025-02-11 18:15:13 [verbose]: Song select changing beatmap from "Momokurotei Ichimon - Nippon Egao Hyakkei (alden) [sanya's insane]" to "Ado - Odo (Heilia) [Wanpachi's Hyper]"
+2025-02-11 18:15:13 [verbose]: Game-wide working beatmap updated to Ado - Odo (Heilia) [Wanpachi's Hyper]
+2025-02-11 18:15:13 [verbose]: Song select working beatmap updated to Ado - Odo (Heilia) [Wanpachi's Hyper]
+2025-02-11 18:15:13 [verbose]: Song select decided to ensurePlayingSelected
+2025-02-11 18:15:14 [verbose]: Song select updating selection with beatmap: Imoutosan - Onii-Chan Baka Hentai (KoolKwoA) [No doubt (Hard)] a55312ab-992b-43c2-b157-78a1e6c10cfd ruleset:osu
+2025-02-11 18:15:14 [verbose]: Song select changing beatmap from "Ado - Odo (Heilia) [Wanpachi's Hyper]" to "Imoutosan - Onii-Chan Baka Hentai (KoolKwoA) [No doubt (Hard)]"
+2025-02-11 18:15:14 [verbose]: Game-wide working beatmap updated to Imoutosan - Onii-Chan Baka Hentai (KoolKwoA) [No doubt (Hard)]
+2025-02-11 18:15:14 [verbose]: Song select working beatmap updated to Imoutosan - Onii-Chan Baka Hentai (KoolKwoA) [No doubt (Hard)]
+2025-02-11 18:15:14 [verbose]: Song select decided to ensurePlayingSelected
+2025-02-11 18:15:16 [verbose]: Song select updating selection with beatmap: Kitazawa Kyouhei feat. Hatsune Miku - ONIRIC (-Sylvari) [PAINFUL HARD] e6541d6b-eaa5-47bf-9c74-07c54fb3b52c ruleset:osu
+2025-02-11 18:15:16 [verbose]: Song select changing beatmap from "Imoutosan - Onii-Chan Baka Hentai (KoolKwoA) [No doubt (Hard)]" to "Kitazawa Kyouhei feat. Hatsune Miku - ONIRIC (-Sylvari) [PAINFUL HARD]"
+2025-02-11 18:15:16 [verbose]: Game-wide working beatmap updated to Kitazawa Kyouhei feat. Hatsune Miku - ONIRIC (-Sylvari) [PAINFUL HARD]
+2025-02-11 18:15:16 [verbose]: Song select working beatmap updated to Kitazawa Kyouhei feat. Hatsune Miku - ONIRIC (-Sylvari) [PAINFUL HARD]
+2025-02-11 18:15:16 [verbose]: Song select decided to ensurePlayingSelected
+2025-02-11 18:15:17 [verbose]: Song select updating selection with beatmap: Utsu-P - Psychokinesis (Osu Tatakae Ouendan) [Rice's Insane] 4e104aeb-dcc0-4cca-861a-67ce09c240c3 ruleset:osu
+2025-02-11 18:15:17 [verbose]: Song select changing beatmap from "Kitazawa Kyouhei feat. Hatsune Miku - ONIRIC (-Sylvari) [PAINFUL HARD]" to "Utsu-P - Psychokinesis (Osu Tatakae Ouendan) [Rice's Insane]"
+2025-02-11 18:15:17 [verbose]: Game-wide working beatmap updated to Utsu-P - Psychokinesis (Osu Tatakae Ouendan) [Rice's Insane]
+2025-02-11 18:15:17 [verbose]: Song select working beatmap updated to Utsu-P - Psychokinesis (Osu Tatakae Ouendan) [Rice's Insane]
+2025-02-11 18:15:17 [verbose]: Song select decided to ensurePlayingSelected
+2025-02-11 18:15:18 [verbose]: Song select updating selection with beatmap: K/DA - POP/STARS (ft. Madison Beer, (G)I-DLE, Jaira Burns) (Nathan) [Insane] a928e20d-07ab-49e3-a50c-914c51953c76 ruleset:osu
+2025-02-11 18:15:18 [verbose]: Song select changing beatmap from "Utsu-P - Psychokinesis (Osu Tatakae Ouendan) [Rice's Insane]" to "K/DA - POP/STARS (ft. Madison Beer, (G)I-DLE, Jaira Burns) (Nathan) [Insane]"
+2025-02-11 18:15:18 [verbose]: Game-wide working beatmap updated to K/DA - POP/STARS (ft. Madison Beer, (G)I-DLE, Jaira Burns) (Nathan) [Insane]
+2025-02-11 18:15:18 [verbose]: Song select working beatmap updated to K/DA - POP/STARS (ft. Madison Beer, (G)I-DLE, Jaira Burns) (Nathan) [Insane]
+2025-02-11 18:15:18 [verbose]: Song select decided to ensurePlayingSelected
+2025-02-11 18:15:19 [verbose]: 📺 OsuScreenStack#522(depth:4) suspended PlaySongSelect#507 (waiting on PlayerLoader#853)
+2025-02-11 18:15:19 [verbose]: 📺 OsuScreenStack#522(depth:5) loading PlayerLoader#853
+2025-02-11 18:15:19 [verbose]: 📺 OsuScreenStack#522(depth:5) entered PlayerLoader#853
+2025-02-11 18:15:19 [verbose]: Successfully initialized decoder: h264
+2025-02-11 18:15:20 [verbose]: Score submission token retrieved (507136630)
+2025-02-11 18:15:20 [verbose]: Starting high performance session
+2025-02-11 18:15:21 [verbose]: 📺 OsuScreenStack#522(depth:5) suspended PlayerLoader#853 (waiting on SoloPlayer#286)
+2025-02-11 18:15:21 [verbose]: 📺 OsuScreenStack#522(depth:6) entered SoloPlayer#286
+2025-02-11 18:15:21 [verbose]: GameplayClockContainer seeking to -1670
+2025-02-11 18:15:21 [verbose]: GameplayClockContainer started via call to StartGameplayClock
+2025-02-11 18:16:04 [verbose]: Received beatmap updates 1 updates with last id 8854118
+2025-02-11 18:17:04 [verbose]: Received beatmap updates 1 updates with last id 8854119
+2025-02-11 18:17:40 [verbose]: Beginning score submission (token:507136630)...
+2025-02-11 18:17:40 [verbose]: Score submission completed! (token:507136630 id:4337706768)
+2025-02-11 18:17:40 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:17:40 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:17:40 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:17:40 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:17:40 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:17:40 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:17:40 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:17:40 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:17:40 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:17:40 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:17:40 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:17:40 [verbose]: Frames arrived at SpectatorClient outside of gameplay scope and will be ignored.
+2025-02-11 18:17:40 [verbose]: GameplayClockContainer stopped via call to StopGameplayClock
+2025-02-11 18:17:41 [verbose]: 📺 OsuScreenStack#522(depth:5) exit from SoloPlayer#286
+2025-02-11 18:17:41 [verbose]: 📺 OsuScreenStack#522(depth:5) resume to PlayerLoader#853
+2025-02-11 18:17:41 [verbose]: Ending high performance session
+2025-02-11 18:17:41 [verbose]: 📺 OsuScreenStack#522(depth:4) exit from PlayerLoader#853
+2025-02-11 18:17:41 [verbose]: 📺 OsuScreenStack#522(depth:4) resume to PlaySongSelect#507
+2025-02-11 18:17:41 [verbose]: Song select working beatmap updated to K/DA - POP/STARS (ft. Madison Beer, (G)I-DLE, Jaira Burns) (Nathan) [Insane]
+2025-02-11 18:17:41 [verbose]: 📺 BackgroundScreenStack#255(depth:1) exit from BackgroundScreenBeatmap#263
+2025-02-11 18:17:41 [verbose]: 📺 BackgroundScreenStack#255(depth:1) resume to BackgroundScreenDefault#392
+2025-02-11 18:17:41 [verbose]: 📺 OsuScreenStack#522(depth:3) exit from PlaySongSelect#507
+2025-02-11 18:17:41 [verbose]: 📺 OsuScreenStack#522(depth:3) resume to MainMenu#228
+2025-02-11 18:17:41 [verbose]: 🌅 Global background change queued
+2025-02-11 18:17:41 [verbose]: 🌅 Global background change queued
+2025-02-11 18:17:41 [verbose]: ButtonSystem's state changed from EnteringMode to TopLevel
+2025-02-11 18:17:42 [verbose]: 🌅 Global background loading
+2025-02-11 18:17:47 [verbose]: ButtonSystem's state changed from TopLevel to Initial
+2025-02-11 18:17:59 [verbose]: Received beatmap updates 1 updates with last id 8854120
